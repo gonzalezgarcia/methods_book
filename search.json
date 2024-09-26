@@ -4,41 +4,55 @@
     "href": "index.html",
     "title": "Research methods in Cognitive Neuroscience",
     "section": "",
-    "text": "Welcome\n\nThis text is aimed to serve as your guide for the first half of the course “Methodology in Cognitive Neuroscience: Basic and Applied Research” in the Master’s Program in Cognitive and Behavioral Neuroscience at the University of Granada.\nIn this section, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We’ll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we’ll dive into hands-on training using E-Prime and OpenSesame, two powerful pieces of software for creating psychology experiments.\nBy the end of this module, you will be able to:\n\nUnderstand and apply principles of experimental design in cognitive neuroscience\nThink critically about research methodology and experimental control\nDesign and program your own experiments using E-Prime and OpenSesame\nTroubleshoot common issues in experiment programming\n\nThis guide is designed to be both theoretical and practical. Most of the chapters include conceptual discussions followed by hands-on exercises to help you apply what you’ve learned. Remember, mastering these skills requires practice, creativity, and persistence!\n\n\n\n\n\n\nRelevant links\n\n\n\nCourse guide\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nThis material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-25.\nThe resources listed here are Open Educational Resources (OER) that are free to use, share, copy, and edit, with attribution, following the terms of the specified license.\nPlease contact Carlos González for any inquiry."
+    "text": "Welcome\n\n\n\nAI algorithm hallucinates what this course is about\n\n\nThis text is aimed to serve as your guide for the first half of the course “Methodology in Cognitive Neuroscience: Basic and Applied Research” in the Master’s Program in Cognitive and Behavioral Neuroscience at the University of Granada.\nIn this section, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We’ll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we’ll dive into hands-on training using E-Prime and OpenSesame, two powerful pieces of software for creating psychology experiments.\nBy the end of this module, you will be able to:\n\nUnderstand and apply principles of experimental design in cognitive neuroscience\nThink critically about research methodology and experimental control\nDesign and program your own experiments using E-Prime and OpenSesame\nTroubleshoot common issues in experiment programming\n\nThis guide is designed to be both theoretical and practical. Most of the chapters include conceptual discussions followed by hands-on exercises to help you apply what you’ve learned. Remember, mastering these skills requires practice, creativity, and persistence!\n\n\n\n\n\n\nRelevant links\n\n\n\nCourse guide\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nThis material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-25.\nThe resources listed here are Open Educational Resources (OER) that are free to use, share, copy, and edit, with attribution, following the terms of the specified license.\nPlease contact Carlos González for any inquiry."
+  },
+  {
+    "objectID": "syllabus.html#required-software",
+    "href": "syllabus.html#required-software",
+    "title": "1  Syllabus",
+    "section": "1.1 Required Software",
+    "text": "1.1 Required Software\nCheck PRADO for instructions on how to install E-Prime.\nOpenSesame (download latest version from here).\nIt should run in any more or less recent computer. If you have any issue installing it, please let me know as soon as possible!"
   },
   {
     "objectID": "syllabus.html#resources-and-recommended-readings",
     "href": "syllabus.html#resources-and-recommended-readings",
-    "title": "1  Required Software",
-    "section": "1.1 Resources and recommended readings",
-    "text": "1.1 Resources and recommended readings\n\n\n\n\n\n\nNote\n\n\n\nNote: these are just extra readings in case you want to learn more. They are encouraged but not required to follow or pass the course.\n\n\n\nBarbosa, J., Stein, H., Zorowitz, S., Niv, Y., Summerfield, C., Soto-Faraco, S., & Hyafil, A. (2023). A practical guide for studying human behavior in the lab. Behavior Research Methods, 55(1), 58-76.\nFrank, M. C., Braginsky, M., Cachia, J., Coles, N.A., Hardwicke, T.E., Hawkins, R.E., Mathur, M.B., and Williams, R. 2024. Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. https://doi.org/10.7551/mitpress/14810.001.0001.\nMathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source, graphical experiment builder for the social sciences. Behavior Research Methods, 44, 314-324.\nMyers, J. L., Well, A. D., & Lorch Jr, R. F. (2013). Research design and statistical analysis. Routledge."
+    "title": "1  Syllabus",
+    "section": "1.2 Resources and recommended readings",
+    "text": "1.2 Resources and recommended readings\n\n\n\n\n\n\nNote\n\n\n\nNote: these are just extra readings in case you want to learn more. They are encouraged but not required to follow or pass the course.\n\n\n\nBarbosa, J., Stein, H., Zorowitz, S., Niv, Y., Summerfield, C., Soto-Faraco, S., & Hyafil, A. (2023). A practical guide for studying human behavior in the lab. Behavior Research Methods, 55(1), 58-76.\nFrank, M. C., Braginsky, M., Cachia, J., Coles, N.A., Hardwicke, T.E., Hawkins, R.E., Mathur, M.B., and Williams, R. 2024. Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. https://doi.org/10.7551/mitpress/14810.001.0001.\nMathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source, graphical experiment builder for the social sciences. Behavior Research Methods, 44, 314-324.\nMyers, J. L., Well, A. D., & Lorch Jr, R. F. (2013). Research design and statistical analysis. Routledge."
   },
   {
     "objectID": "syllabus.html#assessment",
     "href": "syllabus.html#assessment",
-    "title": "1  Required Software",
-    "section": "1.2 Assessment",
-    "text": "1.2 Assessment\nThis course is divided in two parts:\n\nProgramming of experiments (50% of the final grade)\nStatistical analyses (50% of the final grade)\n\n\n\n\n\n\n\nImportant!\n\n\n\nA minimum of 25% in each phase is required to pass the course.\n\n\nIn my part of the course (Part 1), your final grade will depend on:\n\n\n\nActivity\nContribution to final grade\n\n\n\n\nParticipation and in-class assignments\n30%\n\n\nIndividual programming assignments\n30%\n\n\nFinal project\n40%"
+    "title": "1  Syllabus",
+    "section": "1.3 Assessment",
+    "text": "1.3 Assessment\nThis course is divided in two parts:\n\nProgramming of experiments (50% of the final grade)\nStatistical analyses (50% of the final grade)\n\n\n\n\n\n\n\nImportant!\n\n\n\nA minimum of 25% in each phase is required to pass the course.\n\n\nIn my part of the course (Part 1), your final grade will depend on:\n\n\n\nActivity\nContribution to final grade\n\n\n\n\nParticipation and in-class assignments\n30%\n\n\nIndividual programming assignments\n30%\n\n\nFinal project\n40%"
   },
   {
     "objectID": "syllabus.html#course-policies",
     "href": "syllabus.html#course-policies",
-    "title": "1  Required Software",
-    "section": "1.3 Course Policies",
-    "text": "1.3 Course Policies\n\n1.3.1 Attendance and Participation\nAttendance is strongly encouraged for this course due to its eminently practical nature. Please note:\n\nMany in-class activities and hands-on exercises might not be easily replicated outside of class.\nRegular attendance will significantly enhance your learning experience and ability to complete assignments successfully.\nIf you must miss a class, it is your responsibility to catch up on missed material and assignments.\nConsistent participation in class discussions and activities will positively impact your learning and final grade.\n\n\n\n1.3.2 Late Work and Extensions\n\nAssignments are due on the dates specified in the course schedule.\nLate submissions will incur a 20% penalty\nIf you anticipate difficulty meeting a deadline, please contact me as soon as possible to discuss potential extensions.\nExtensions may be granted for documented emergencies or extenuating circumstances at the instructor’s discretion.\n\n\n\n1.3.3 Academic Integrity\n\nAll work submitted must be your own.\nWhen using external sources (including generative AI tools), proper citation is required.\nCollaboration on assignments is encouraged, but each student must submit their own original work.\n\n\n\n1.3.4 Communication\n\nEmail (cgonzalez at ugr dot es) is the primary mode of communication outside of class.\nYou can also use PRADO if you prefer."
+    "title": "1  Syllabus",
+    "section": "1.4 Course Policies",
+    "text": "1.4 Course Policies\n\n1.4.1 Attendance and Participation\nAttendance is strongly encouraged for this course due to its eminently practical nature. Please note:\n\nMany in-class activities and hands-on exercises might not be easily replicated outside of class.\nRegular attendance will significantly enhance your learning experience and ability to complete assignments successfully.\nIf you must miss a class, it is your responsibility to catch up on missed material and assignments.\nConsistent participation in class discussions and activities will positively impact your learning and final grade.\n\n\n\n1.4.2 Late Work and Extensions\n\nAssignments are due on the dates specified in the course schedule.\nLate submissions will incur a 20% penalty\nIf you anticipate difficulty meeting a deadline, please contact me as soon as possible to discuss potential extensions.\nExtensions may be granted for documented emergencies or extenuating circumstances at the instructor’s discretion.\n\n\n\n1.4.3 Academic Integrity\n\nAll work submitted must be your own.\nWhen using external sources (including generative AI tools), proper citation is required.\nCollaboration on assignments is encouraged, but each student must submit their own original work.\n\n\n\n1.4.4 Communication\n\nEmail (cgonzalez at ugr dot es) is the primary mode of communication outside of class.\nYou can also use PRADO if you prefer."
   },
   {
     "objectID": "syllabus.html#office-hours",
     "href": "syllabus.html#office-hours",
-    "title": "1  Required Software",
-    "section": "1.4 Office Hours",
-    "text": "1.4 Office Hours\nMondays from 8:30 to 11, but feel free to send me an email anytime or just ask me after class."
+    "title": "1  Syllabus",
+    "section": "1.5 Office Hours",
+    "text": "1.5 Office Hours\nMondays from 8:30 to 11, but feel free to send me an email anytime or just ask me after class."
+  },
+  {
+    "objectID": "s0.html#from-research-questions-to-data",
+    "href": "s0.html#from-research-questions-to-data",
+    "title": "2  Session 0",
+    "section": "2.1 From Research Questions to Data",
+    "text": "2.1 From Research Questions to Data\nThe essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:\n\nBetween-participants design: Each participant experiences only one level of a factor.\nWithin-participants design: Participants experience multiple levels of a factor, allowing for within-subject comparisons.\nMixed designs: Combining elements of both between- and within-participant designs.\n\nThere are also techniques like counterbalancing to mitigate order effects and ensure reliable, replicable results."
   },
   {
     "objectID": "s0.html#tools-for-experimental-design",
     "href": "s0.html#tools-for-experimental-design",
-    "title": "2  From Research Questions to Data",
-    "section": "2.1 Tools for Experimental Design",
-    "text": "2.1 Tools for Experimental Design\nDuring the programming phase, you’ll become familiar with two key software tools:\n\n2.1.1 E-Prime\n\nWidely used at CIMCYC\nGreat for users with little coding experience\nOnly available on Windows (License required; check PRADO)\n\n\n\n2.1.2 OpenSesame\n\nPython-based and open source\nCross-platform and free\nRequires basic coding knowledge, but has a large online community\n\nIf you need help accessing these tools or have a non-Windows computer, feel free to reach out!\n\n\n\n\n\n\nRelevant readings\n\n\n\nFor more reading, check out the following resources:\n\nMyers, Well, & Lorch (2013). Research Design and Statistical Analysis\nExperimentology\nBarbosa (2022)\n\n\n\nBelow, you can find the slides from this session:"
+    "title": "2  Session 0",
+    "section": "2.2 Tools for Experimental Design",
+    "text": "2.2 Tools for Experimental Design\nDuring the programming phase, you’ll become familiar with two key software tools:\n\n2.2.1 E-Prime\n\nWidely used at CIMCYC\nGreat for users with little coding experience\nOnly available on Windows (License required; check PRADO)\n\n\n\n2.2.2 OpenSesame\n\nPython-based and open source\nCross-platform and free\nRequires basic coding knowledge, but has a large online community\n\nIf you need help accessing these tools or have a non-Windows computer, feel free to reach out!\n\n\n\n\n\n\nRelevant readings\n\n\n\nFor more reading, check out the following resources:\n\nMyers, Well, & Lorch (2013). Research Design and Statistical Analysis\nExperimentology\nBarbosa (2022)\n\n\n\nBelow, you can find the slides from this session:"
   }
 ]
