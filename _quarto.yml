@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  author: "[Carlos González](https://gonzalezgarcia.github.io/)"
+  title: "Research methods in Cognitive Neuroscience"
+  chapters:
+    - index.qmd
+    - syllabus.qmd
+    - s0.qmd
+  sidebar:
+    title: "Methods in CogNeuro"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
+
+
+
+

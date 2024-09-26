@@ -1,0 +1,49 @@
+---
+title: "Session 0"
+format: 
+  html:
+    embed-resources: true
+  pdf: default
+  
+---
+
+## From Research Questions to Data
+
+The essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:
+
+- **Between-participants design**: Each participant experiences only one level of a factor.
+- **Within-participants design**: Participants experience multiple levels of a factor, allowing for within-subject comparisons.
+- **Mixed designs**: Combining elements of both between- and within-participant designs.
+
+There are also techniques like **counterbalancing** to mitigate order effects and ensure reliable, replicable results.
+
+## Tools for Experimental Design
+
+During the programming phase, you'll become familiar with two key software tools:
+
+### E-Prime
+- Widely used at CIMCYC
+- Great for users with little coding experience
+- Only available on Windows (License required; check PRADO)
+
+### OpenSesame
+- Python-based and open source
+- Cross-platform and free
+- Requires basic coding knowledge, but has a large online community
+
+If you need help accessing these tools or have a non-Windows computer, feel free to reach out!
+
+:::{.callout-tip}
+## Relevant readings
+
+For more reading, check out the following resources:
+
+- [Myers, Well, & Lorch (2013). Research Design and Statistical Analysis](https://granatensis.ugr.es/discovery/fulldisplay?docid=alma991014333689904990&context=L&vid=34CBUA_UGR:VU1)
+- [Experimentology](https://experimentology.io/)
+- [Barbosa (2022)](https://jmourabarbosa.github.io/files/Barbosa_2022_BRM.pdf)
+
+:::
+
+Below, you can find the slides from this session:
+
+<iframe src="https://docs.google.com/presentation/d/17XcCP30txfQTdQ5MNZudlYxO4c-4MlXHwdlbRDrsp7o/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
