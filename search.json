@@ -44,14 +44,14 @@
   {
     "objectID": "s0.html#from-research-questions-to-data",
     "href": "s0.html#from-research-questions-to-data",
-    "title": "Week 0: Course kick-off",
+    "title": "Session 0: Course kick-off",
     "section": "From Research Questions to Data",
     "text": "From Research Questions to Data\nThe essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:\n\nBetween-participants design: Each participant experiences only one level of a factor.\nWithin-participants design: Participants experience multiple levels of a factor, allowing for within-subject comparisons.\nMixed designs: Combining elements of both between- and within-participant designs.\n\nThere are also techniques like counterbalancing to mitigate order effects and ensure reliable, replicable results."
   },
   {
     "objectID": "s0.html#tools-for-experimental-design",
     "href": "s0.html#tools-for-experimental-design",
-    "title": "Week 0: Course kick-off",
+    "title": "Session 0: Course kick-off",
     "section": "Tools for Experimental Design",
     "text": "Tools for Experimental Design\nDuring the programming phase, you’ll become familiar with two key software tools:\n\nE-Prime\n\nWidely used at CIMCYC\nGreat for users with little coding experience\nOnly available on Windows (License required; check PRADO)\n\n\n\nOpenSesame\n\nPython-based and open source\nCross-platform and free\nRequires basic coding knowledge, but has a large online community\n\nIf you need help accessing these tools or have a non-Windows computer, feel free to reach out!\n\n\n\n\n\n\nRelevant readings\n\n\n\nFor more reading, check out the following resources:\n\nMyers, Well, & Lorch (2013). Research Design and Statistical Analysis\nExperimentology\nBarbosa (2022)\n\n\n\nBelow, you can find the slides from this session:"
   }
