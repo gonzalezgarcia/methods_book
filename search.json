@@ -7,6 +7,13 @@
     "text": "Welcome\n\n\n\nAI algorithm hallucinates what this course is about\n\n\nThis text is aimed to serve as your guide for the first half of the course “Methodology in Cognitive Neuroscience: Basic and Applied Research” in the Master’s Program in Cognitive and Behavioral Neuroscience at the University of Granada.\nIn this section, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We’ll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we’ll dive into hands-on training using E-Prime and OpenSesame, two powerful pieces of software for creating psychology experiments.\nBy the end of this module, you will be able to:\n\nUnderstand and apply principles of experimental design in cognitive neuroscience\nThink critically about research methodology and experimental control\nDesign and program your own experiments using E-Prime and OpenSesame\nTroubleshoot common issues in experiment programming\n\nThis guide is designed to be both theoretical and practical. Most of the chapters include conceptual discussions followed by hands-on exercises to help you apply what you’ve learned. Remember, mastering these skills requires practice, creativity, and persistence!\n\n\n\n\n\n\nRelevant links\n\n\n\nCourse guide\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nThis material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-25.\nThe resources listed here are Open Educational Resources (OER) that are free to use, share, copy, and edit, with attribution, following the terms of the specified license.\nPlease contact Carlos González for any inquiry."
   },
   {
+    "objectID": "syllabus.html#schedule",
+    "href": "syllabus.html#schedule",
+    "title": "Syllabus",
+    "section": "Schedule",
+    "text": "Schedule\nClasses will take place at Seminario 3 (CIMCYC) on Wednesday from 17:00 to 18:50 and Fridays from 09:00 to 10:50."
+  },
+  {
     "objectID": "syllabus.html#required-software",
     "href": "syllabus.html#required-software",
     "title": "Syllabus",
@@ -53,6 +60,34 @@
     "href": "s0.html#tools-for-experimental-design",
     "title": "Session 0: Course kick-off",
     "section": "Tools for Experimental Design",
-    "text": "Tools for Experimental Design\nDuring the programming phase, you’ll become familiar with two key software tools:\n\nE-Prime\n\nWidely used at CIMCYC\nGreat for users with little coding experience\nOnly available on Windows (License required; check PRADO)\n\n\n\nOpenSesame\n\nPython-based and open source\nCross-platform and free\nRequires basic coding knowledge, but has a large online community\n\nIf you need help accessing these tools or have a non-Windows computer, feel free to reach out!\n\n\n\n\n\n\nRelevant readings\n\n\n\nFor more reading, check out the following resources:\n\nMyers, Well, & Lorch (2013). Research Design and Statistical Analysis\nExperimentology\nBarbosa (2022)\n\n\n\nBelow, you can find the slides from this session:"
+    "text": "Tools for Experimental Design\nDuring the programming phase, you’ll become familiar with two key software tools:\n\nE-Prime\n\nWidely used at CIMCYC\nGreat for users with little coding experience\nOnly available on Windows (License required; check PRADO)\n\n\n\nOpenSesame\n\nPython-based and open source\nCross-platform and free\nRequires basic coding knowledge, but has a large online community\n\nIf you need help accessing these tools or have a non-Windows computer, feel free to reach out!\n\n\n\n\n\n\nRelevant readings\n\n\n\nFor more reading, check out the following resources:\n\nMyers, Well, & Lorch (2013). Research Design and Statistical Analysis\nExperimentology\nBarbosa (2022)\n\n\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\n1. Understanding Experimental Design\n\nWhat are the key differences between between-participants and within-participants designs, and in what scenarios would you prefer one over the other?\nReflect on the importance of counterbalancing in experimental design. How does it help improve the reliability of an experiment?\n\n\n\n2. From Research Questions to Experiment Design\n\nHow would you approach transforming a cognitive neuroscience research question into a concrete experimental procedure? What are the key stages you must consider?\nHow do repeated measures (within-participant designs) affect the interpretation of experimental data compared to between-participant designs?\n\n\n\n3. Programming and Tools\n\nCompare and contrast the strengths and weaknesses of E-Prime and OpenSesame. How might the choice of tool affect the design and execution of your experiment?\nIn programming an experiment, why is it important to understand both the user interface (e.g., E-Prime’s E-Studio) and coding components (e.g., Inline Scripts)?\n\n\n\n4. Ethical Considerations\n\nWhen designing experiments in cognitive neuroscience, what ethical considerations should be taken into account? How can these be incorporated into the design phase?\n\n\n\n\n\nBelow, you can find the slides from this session:"
+  },
+  {
+    "objectID": "s1.html#key-stages-in-experimental-development",
+    "href": "s1.html#key-stages-in-experimental-development",
+    "title": "Session 1",
+    "section": "Key Stages in Experimental Development",
+    "text": "Key Stages in Experimental Development\n\nConceptualize the Core Experimental (trial) Procedure\nThis is where you define the fundamental, hierarchical structure of the experiment.\nElaborate the Trial Procedure\nDetermine how each trial will flow and what elements will be presented.\nAdd All Conditions and Set the Number of Trials and Sampling Strategy\nDefine the independent variables, number of trials, and how trials are sampled.\nAdd Blocks and Block Conditions\nBreak the trials into blocks and set conditions for each block.\nAdd a Practice Block\nInclude a practice phase where participants can familiarize themselves with the task.\nTesting and Running the Program\nEnsure the experiment runs smoothly and make any necessary adjustments.\nPerform Basic Data Analysis\nTake a first look at the results once the data is collected to make sure everything looks fine."
+  },
+  {
+    "objectID": "s1.html#developing-a-lexical-decision-task",
+    "href": "s1.html#developing-a-lexical-decision-task",
+    "title": "Session 1",
+    "section": "Developing a Lexical Decision Task",
+    "text": "Developing a Lexical Decision Task\nIn this session, we’ll create a lexical decision task, where participants must determine whether a string of letters is a word or a non-word. The task will consist of several trials, each with the following sequence:\n\nFixation: Displayed for 1000ms\n\nProbe: Displayed for 2000ms\n\nFor each trial, the word will either be a real word (e.g., “cat”) or a non-word (e.g., “jop”). The task will require participants to press a specific key based on whether they think the displayed string is a word or non-word.\n\nFixed vs. Varying Properties\nTo understand how E-Prime works, a key concept to always keep in mind is the distinction between fixed and varying properties in an experiment: - Fixed properties: Elements like the fixation display (e.g., position, color, duration) will remain the same across trials. - Varying properties: The actual words and correct responses will change with each trial.\nIf we define which properties remain constant and which vary across trials when designing each event, it will be easir to understand which information goes into a procedure and what goes into a list."
+  },
+  {
+    "objectID": "s1.html#adding-complexity-to-the-experiment",
+    "href": "s1.html#adding-complexity-to-the-experiment",
+    "title": "Session 1",
+    "section": "Adding Complexity to the Experiment",
+    "text": "Adding Complexity to the Experiment\nWe will also explore the following adjustments:\n\nBlocks: The experiment will consist of two blocks, with a break in between.\nCounterbalancing: To avoid response bias, responses can be counterbalanced across participants. For example:\n\nParticipant 1: word = “k”, non-word = “l”\nParticipant 2: word = “l”, non-word = “k”"
+  },
+  {
+    "objectID": "s1.html#adding-a-practice-block",
+    "href": "s1.html#adding-a-practice-block",
+    "title": "Session 1",
+    "section": "Adding a Practice Block",
+    "text": "Adding a Practice Block\nBefore the actual experiment, we’ll include a practice block with the following key differences: - Feedback will be provided after each trial to help participants learn the task. - Practice trials will be marked separately to exclude them from the final data analysis.\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\nWhy is it essential to define both fixed and varying properties for an experiment? Provide examples of each in the context of a Stroop task.\n\n\n\n\nBelow, you can find the slides from this session:"
   }
 ]
