@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Research methods in Cognitive Neuroscience - Session 1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./s1.html" rel="prev">
+<link href="./r4epi_favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Session 1</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Methods in CogNeuro</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/gonzalezgarcia/methods_book" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Course information</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Weekly content</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./s0.html" class="sidebar-item-text sidebar-link">Session 0: Course kick-off</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./s1.html" class="sidebar-item-text sidebar-link">Session 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./s2.html" class="sidebar-item-text sidebar-link active">Session 1</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#developing-a-lexical-decision-task" id="toc-developing-a-lexical-decision-task" class="nav-link active" data-scroll-target="#developing-a-lexical-decision-task">Developing a Lexical Decision Task</a>
+  <ul class="collapse">
+  <li><a href="#trial-structure" id="toc-trial-structure" class="nav-link" data-scroll-target="#trial-structure">Trial Structure</a></li>
+  <li><a href="#adding-blocks" id="toc-adding-blocks" class="nav-link" data-scroll-target="#adding-blocks">Adding Blocks</a></li>
+  <li><a href="#adding-feedback-to-trials" id="toc-adding-feedback-to-trials" class="nav-link" data-scroll-target="#adding-feedback-to-trials">Adding Feedback to Trials</a></li>
+  <li><a href="#adding-all-trials" id="toc-adding-all-trials" class="nav-link" data-scroll-target="#adding-all-trials">Adding All Trials</a></li>
+  <li><a href="#counterbalancing-responses" id="toc-counterbalancing-responses" class="nav-link" data-scroll-target="#counterbalancing-responses">Counterbalancing Responses</a></li>
+  </ul></li>
+  <li><a href="#first-task-submission-the-flanker-task" id="toc-first-task-submission-the-flanker-task" class="nav-link" data-scroll-target="#first-task-submission-the-flanker-task">First Task Submission: The Flanker Task</a>
+  <ul class="collapse">
+  <li><a href="#key-elements-of-the-flanker-task" id="toc-key-elements-of-the-flanker-task" class="nav-link" data-scroll-target="#key-elements-of-the-flanker-task">Key Elements of the Flanker Task</a></li>
+  <li><a href="#task-design" id="toc-task-design" class="nav-link" data-scroll-target="#task-design">Task Design</a></li>
+  <li><a href="#probe-list" id="toc-probe-list" class="nav-link" data-scroll-target="#probe-list">Probe List</a></li>
+  <li><a href="#extra-points" id="toc-extra-points" class="nav-link" data-scroll-target="#extra-points">Extra Points</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Session 1</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>In this session, we’ll continue developing our understanding of cognitive experiments, focusing on the <strong>lexical decision task</strong> and exploring the use of feedback, counterbalancing, and nested lists. Additionally, we’ll introduce the first task submission involving the <strong>Flanker Task</strong>.</p>
+<section id="developing-a-lexical-decision-task" class="level2">
+<h2 class="anchored" data-anchor-id="developing-a-lexical-decision-task">Developing a Lexical Decision Task</h2>
+<section id="trial-structure" class="level3">
+<h3 class="anchored" data-anchor-id="trial-structure">Trial Structure</h3>
+<p>Each trial in the lexical decision task involves the following sequence:</p>
+<ul>
+<li><strong>Fixation</strong>: Displayed for 1000 ms</li>
+<li><strong>Probe</strong>: Displayed for 2000 ms</li>
+</ul>
+<p>The key goal is to understand what elements need to be fixed (e.g., fixation cross, display duration) and what should vary (e.g., the word presented, correct response).</p>
+</section>
+<section id="adding-blocks" class="level3">
+<h3 class="anchored" data-anchor-id="adding-blocks">Adding Blocks</h3>
+<p>To add more complexity, we can divide the trials into blocks, with breaks in between.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Homework
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>How would you add a practice block to the task?:::</p>
+</div>
+</div>
+</section>
+<section id="adding-feedback-to-trials" class="level3">
+<h3 class="anchored" data-anchor-id="adding-feedback-to-trials">Adding Feedback to Trials</h3>
+<ul>
+<li>Add a <strong>FeedbackDisplay</strong> object as the last event in your trial procedure.</li>
+<li>Explore the feedback’s default options (e.g., states, duration).</li>
+<li>Use the <em>“Input Object Name”</em> to base the feedback on a specific object (e.g., correct response).</li>
+</ul>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Homework
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>How would you add feedback only to the practice block?</p>
+</div>
+</div>
+</section>
+<section id="adding-all-trials" class="level3">
+<h3 class="anchored" data-anchor-id="adding-all-trials">Adding All Trials</h3>
+<p>There are different ways to add trials: - If the number of trials is small, you can manually enter the conditions. - For a large number of trials, use <strong>nested lists</strong>. This involves: - Reducing the trial list to the number of conditions. - Creating a new list for each condition, which contains the trial exemplars.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Keep at least two rows per condition to avoid predictable sequences.</p>
+</div>
+</div>
+</section>
+<section id="counterbalancing-responses" class="level3">
+<h3 class="anchored" data-anchor-id="counterbalancing-responses">Counterbalancing Responses</h3>
+<p>To prevent response bias, you can counterbalance responses across participants. For example: - <strong>Participant 1</strong>: word = “k”; non-word = “l” - <strong>Participant 2</strong>: word = “l”; non-word = “k”</p>
+<hr>
+</section>
+</section>
+<section id="first-task-submission-the-flanker-task" class="level2">
+<h2 class="anchored" data-anchor-id="first-task-submission-the-flanker-task">First Task Submission: The Flanker Task</h2>
+<p><strong>Deadline</strong>: October 20th</p>
+<p>In this task, you will explore the <strong>effect of congruence on response inhibition</strong> using the Flanker Task, which assesses the ability to suppress inappropriate responses.</p>
+<section id="key-elements-of-the-flanker-task" class="level3">
+<h3 class="anchored" data-anchor-id="key-elements-of-the-flanker-task">Key Elements of the Flanker Task</h3>
+<ul>
+<li><strong>Congruent Trials</strong>: Where flankers and the target match (e.g., HHHHH).</li>
+<li><strong>Incongruent Trials</strong>: Where the flankers and the target do not match (e.g., SSHSS).</li>
+</ul>
+<section id="sequence-of-events-per-trial" class="level4">
+<h4 class="anchored" data-anchor-id="sequence-of-events-per-trial">Sequence of Events per Trial</h4>
+<ul>
+<li><strong>Fixation</strong> (150 ms)</li>
+<li><strong>Probe</strong> (80 ms)</li>
+<li><strong>Response Window</strong> (800 ms)</li>
+<li><strong>Feedback</strong> (300 ms)</li>
+</ul>
+</section>
+</section>
+<section id="task-design" class="level3">
+<h3 class="anchored" data-anchor-id="task-design">Task Design</h3>
+<p>The experiment will follow a <strong>2 (between-participants) x 2 (within-participants) design</strong>: - <strong>Between-participants factor</strong>: Proportion of congruence (50% vs 80% incongruent trials). - <strong>Within-participants factor</strong>: Congruence (congruent vs incongruent trials).</p>
+<p>Each participant will complete 80 trials in total, equally distributed across the conditions.</p>
+</section>
+<section id="probe-list" class="level3">
+<h3 class="anchored" data-anchor-id="probe-list">Probe List</h3>
+<p>You must use <strong>nested lists</strong> for random probe selection, ensuring that all probes are used the same number of times across trials.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Congruent</strong></th>
+<th><strong>Incongruent</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AAAAA</td>
+<td>AABAA</td>
+</tr>
+<tr class="even">
+<td>BBBBB</td>
+<td>BBABB</td>
+</tr>
+<tr class="odd">
+<td>XXXXX</td>
+<td>XXYXX</td>
+</tr>
+<tr class="even">
+<td>YYYYY</td>
+<td>YYXYY</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="extra-points" class="level3">
+<h3 class="anchored" data-anchor-id="extra-points">Extra Points</h3>
+<ul>
+<li>Counterbalance the proportion of congruence between participants (e.g., group 1 = 50%, group 2 = 80%).</li>
+<li>Run three “participants”, merge their data, and compute the mean <strong>reaction time (RT)</strong> and <strong>accuracy (ACC)</strong> for each condition.</li>
+</ul>
+<p>Please upload your completed task to <strong>PRADO</strong> or send it via email. Late submissions will incur a 20% penalty.</p>
+<hr>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Food for thought
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Consider the following questionsn:</p>
+<section id="trial-structure-and-experimental-design" class="level3">
+<h3 class="anchored" data-anchor-id="trial-structure-and-experimental-design">Trial Structure and Experimental Design</h3>
+<ul>
+<li>What are the advantages of using <strong>nested lists</strong> when designing experiments with a large number of trials or conditions? How does this affect the flexibility and scalability of your experimental design?</li>
+<li>Why is it important to balance the number of trials across conditions, and what issues could arise if this balance is not maintained?</li>
+</ul>
+</section>
+<section id="feedback-in-cognitive-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-in-cognitive-tasks">Feedback in Cognitive Tasks</h3>
+<ul>
+<li>How does adding <strong>feedback</strong> in a cognitive task, particularly in a <strong>practice block</strong>, help participants perform better in the actual trials? What are the potential downsides of providing feedback in all blocks?</li>
+<li>Reflect on the role of <strong>feedback</strong> in learning and task performance. Should feedback always be included in experiments, or are there scenarios where it might interfere with data collection?</li>
+</ul>
+</section>
+<section id="counterbalancing-and-bias" class="level3">
+<h3 class="anchored" data-anchor-id="counterbalancing-and-bias">Counterbalancing and Bias</h3>
+<ul>
+<li>Why is <strong>counterbalancing</strong> critical in cognitive tasks, such as the <strong>lexical decision task</strong> or the <strong>Flanker task</strong>? What would be the consequences of failing to counterbalance responses across participants?</li>
+<li>How does counterbalancing responses improve the <strong>internal validity</strong> of an experiment? Can counterbalancing introduce any unintended complexities in data analysis?</li>
+</ul>
+</section>
+<section id="the-flanker-task" class="level3">
+<h3 class="anchored" data-anchor-id="the-flanker-task">The Flanker Task</h3>
+<ul>
+<li>In the context of the <strong>Flanker task</strong>, how does the proportion of congruent versus incongruent trials affect <strong>response inhibition</strong>? Why might a higher proportion of incongruent trials make it easier for participants to control inappropriate responses?</li>
+<li>Reflect on how varying the <strong>proportion of congruent and incongruent trials</strong> could affect the interpretation of reaction time (RT) and accuracy (ACC) results. How might these effects differ across participants with varying cognitive control abilities?</li>
+</ul>
+</section>
+<section id="experimental-controls-and-variability" class="level3">
+<h3 class="anchored" data-anchor-id="experimental-controls-and-variability">Experimental Controls and Variability</h3>
+<ul>
+<li>What are some potential challenges in designing experiments with both <strong>within-participants</strong> and <strong>between-participants</strong> factors, as seen in the Flanker task? How can you minimize participant variability while maintaining the experimental design’s integrity?</li>
+<li>Why is it important to control for the sequence and timing of stimuli presentation, and how do randomization and counterbalancing help address these issues?</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+<hr>
+<p>Below, you can find the slides from this session:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSguTMA_Gk9I2L5LDV9mExL4KDYSrZrvBEEXlJNA6SUgfDHjJZXZxjPYY7tLYBgSAVbw3gVTprict2d/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./s1.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 1</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Methods in CogNeuro</div>   
+    <div class="nav-footer-right">Built with ♥️ with <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>
