@@ -131,5 +131,117 @@
     "title": "Session 3",
     "section": "Summation Object",
     "text": "Summation Object\nThe Summation object computes average accuracy after a specified number of trials or blocks.\nSteps:\n\nDeclare a Summation object in the User tab\n\nDim PracticeAcc As Summation\n\nInitialize the object at the beginning of the experiment.\n\nSet PracticeAcc = New Summation\n\nAdd an observation after each trial.\n\nPracticeAcc.AddObservation Stimulus.ACC\n\n\n\n\n\n\nExcercise\n\n\n\nCreate a summation to compute accuracy after the fifth trial and end practice if accuracy exceeds 80%.\n\n\n\n\n\n\n\n\nWant to see the solution?\n\n\n\n\n\nDim PracticeAcc As Summation\nDim TrialCounter As Integer\n\nSet PracticeAcc = New Summation\nTrialCounter = 0\n\nTrialCount = TrialCount + 1\nPracticeAcc.AddObservation Stimulus.ACC\n\nIf TrialCount > 5 And PracticeAcc.Mean > .80 Then\n  TrialList.Terminate\nEnd If\n\n\n\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nVariables and Objects in E-Basic\n\nWhy is it important to understand the difference between global and local scope when defining variables in E-Basic? Can you think of situations where one would be more advantageous than the other?\nHow can modifying the properties and methods of objects, such as Object.Text and Object.Run, impact the flow and presentation of your experiment? Provide an example.\n\n\n\nConditionals in E-Basic\n\nWhat is the role of conditionals in controlling the logic of your experiment? How does using conditionals like If...Then...Else help you manage different responses in a trial?\nConsider a scenario where reaction time is crucial. How would you use conditionals to provide real-time feedback to participants based on their performance?\n\n\n\nUsing GoTo Labels in Experimental Design\n\nIn what situations would using GoTo labels improve the structure of your experiment? What are the potential risks of using GoTo commands improperly in a larger experimental setup?\nHow could the GoTo command be used to allow participants to repeat specific blocks of trials without restarting the entire experiment?\n\n\n\nSummation Object and Accuracy Tracking\n\nHow does the Summation object help monitor participant performance across trials? What are the benefits of using this object to track accuracy?\nIf a participant is consistently below the 80% accuracy threshold, what steps could you take to adapt the experiment and improve their performance? Reflect on how accuracy thresholds can be implemented using the Summation object.\n\n\n\nDebugging and Code Testing\n\nHow does the use of Debug.Print assist in testing and troubleshooting your experiment? Why is it useful to check the state of variables like TrialCounter while running the program?\nReflect on the importance of continuous debugging during the development of a complex experiment. What strategies can you use to ensure that errors are caught and corrected early?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
+  },
+  {
+    "objectID": "s4.html#experiment-lifecycle-in-e-prime",
+    "href": "s4.html#experiment-lifecycle-in-e-prime",
+    "title": "Session 4",
+    "section": "Experiment Lifecycle in E-Prime",
+    "text": "Experiment Lifecycle in E-Prime\n\nSteps Involved\n\nCreate the Experiment\nUse E-Studio to design the experiment interface and logic.\nRun the Experiment\nExecute the experiment through E-Run and ensure everything works as planned.\nChange File Format\nUtilize E-DataAid to convert the output into a readable format for analysis.\nMerge Files\nUse E-Merge to combine the data from different participants.\nAnalyze and Export Data\nFinally, run the analysis and export the data for further use.\n\n\n\nKey Tools\n\nE-Studio: Graphical interface to design experiments.\nE-Run: Runs experiments.\nE-Recovery: Recovers partial data if the experiment crashes.\nE-Merge: Merges data from multiple participants.\nE-DataAid: Analyzes and exports experiment data."
+  },
+  {
+    "objectID": "s4.html#example-word-valence-and-stimulus-discrimination",
+    "href": "s4.html#example-word-valence-and-stimulus-discrimination",
+    "title": "Session 4",
+    "section": "Example: Word Valence and Stimulus Discrimination",
+    "text": "Example: Word Valence and Stimulus Discrimination\nIn the experiment, participants must quickly determine the shape displayed after a word. The structure of each trial is as follows:\n\nFixation (1000 ms)\nWord (500 ms)\nShape Display (100 ms)\nResponse Window (up to 2000 ms)"
+  },
+  {
+    "objectID": "s4.html#conditionals-in-e-basic",
+    "href": "s4.html#conditionals-in-e-basic",
+    "title": "Session 4",
+    "section": "Conditionals in E-Basic",
+    "text": "Conditionals in E-Basic\n\nBasic Structure\nConditionals are logic statements that allow specific actions if certain conditions are met.\nExample:\nIf target.RT > 1000 Then\n  Feedback.Text = \"too slow!\"\nEnd If\nConditionals can be used to tailor the feedback or response during the experiment based on participant performance."
+  },
+  {
+    "objectID": "s4.html#prerelease",
+    "href": "s4.html#prerelease",
+    "title": "Session 4",
+    "section": "PreRelease",
+    "text": "PreRelease\nPreRelease allows the current stimulus to release execution time to the next stimulus. By setting PreRelease to 0, you ensure that the previous object finishes its execution before the next one begins."
+  },
+  {
+    "objectID": "s4.html#exercise-create-a-conditional-with-feedback",
+    "href": "s4.html#exercise-create-a-conditional-with-feedback",
+    "title": "Session 4",
+    "section": "Exercise: Create a Conditional with Feedback",
+    "text": "Exercise: Create a Conditional with Feedback\nTry creating an InLine object that:\n\nDisplays “you’re doing great” if the reaction time is less than 1000 ms.\nDisplays “please, try to answer faster” if the reaction time is more than 1000 ms.\n\nExample:\nIf target.RT < 1000 Then\n  Feedback.Text = \"great!\"\nElse\n  Feedback.Text = \"faster\"\nEnd If\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nExperiment Lifecycle in E-Prime\n\nHow does understanding the workflow in E-Prime, from E-Studio to E-Run and E-DataAid, help in managing the overall experiment? What challenges could arise during these transitions?\nWhy is it important to use E-Recovery and E-Merge tools during an experiment, and how do they contribute to data integrity?\n\n\n\nConditionals in E-Basic\n\nHow can conditionals in E-Basic be used to adapt the experiment based on participant responses? Provide an example of how conditionals might be useful in real-time feedback.\nWhy is it important to set the PreRelease property to 0 when using InLine objects after an event? What might happen if this is not done correctly?\n\n\n\n4. Debugging and Testing\n\nWhat strategies would you use to ensure that conditionals and trial logic are functioning as expected during an experiment? How does debugging assist in catching issues early on?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
+  },
+  {
+    "objectID": "s4.html#experiment-lifecycle-in-e-prime-1",
+    "href": "s4.html#experiment-lifecycle-in-e-prime-1",
+    "title": "Session 4",
+    "section": "Experiment Lifecycle in E-Prime",
+    "text": "Experiment Lifecycle in E-Prime\n\nHow does understanding the workflow in E-Prime, from E-Studio to E-Run and E-DataAid, help in managing the overall experiment? What challenges could arise during these transitions?\nWhy is it important to use E-Recovery and E-Merge tools during an experiment, and how do they contribute to data integrity?"
+  },
+  {
+    "objectID": "s4.html#conditionals-in-e-basic-1",
+    "href": "s4.html#conditionals-in-e-basic-1",
+    "title": "Session 4",
+    "section": "Conditionals in E-Basic",
+    "text": "Conditionals in E-Basic\n\nHow can conditionals in E-Basic be used to adapt the experiment based on participant responses? Provide an example of how conditionals might be useful in real-time feedback.\nWhy is it important to set the PreRelease property to 0 when using InLine objects after an event? What might happen if this is not done correctly?"
+  },
+  {
+    "objectID": "s4.html#debugging-and-testing",
+    "href": "s4.html#debugging-and-testing",
+    "title": "Session 4",
+    "section": "4. Debugging and Testing",
+    "text": "4. Debugging and Testing\n\nWhat strategies would you use to ensure that conditionals and trial logic are functioning as expected during an experiment? How does debugging assist in catching issues early on?"
+  },
+  {
+    "objectID": "s5.html#opensesame-overview",
+    "href": "s5.html#opensesame-overview",
+    "title": "Session 5",
+    "section": "OpenSesame Overview",
+    "text": "OpenSesame Overview\n\nKey Features\n\nOpenSesame is an open-source, Python-based tool for designing experiments.\nIt is free, cross-platform, and has a large online community.\nE-Prime, in contrast, is a paid software that works only on Windows but has more support at CIMCYC."
+  },
+  {
+    "objectID": "s5.html#opensesame-structure",
+    "href": "s5.html#opensesame-structure",
+    "title": "Session 5",
+    "section": "OpenSesame Structure",
+    "text": "OpenSesame Structure\nWhile OpenSesame is different from E-Prime, there are some parallels in structure:\n\n\n\nOpenSesame\nE-Prime\n\n\n\n\nlist\nloop\n\n\nprocedure\nsequence\n\n\nslide\nsketchpad\n\n\n\nSome other elements are more specific to OpenSesame, such as the logger and keyboard_response."
+  },
+  {
+    "objectID": "s5.html#task-examples",
+    "href": "s5.html#task-examples",
+    "title": "Session 5",
+    "section": "Task Examples",
+    "text": "Task Examples\n\nStroop Task in OpenSesame\nObjective: Name the color of the ink, not the word.\n\nCongruent Example: green.\nIncongruent Example:green.\nTiming:\n\nFixation: 1000 ms\nStimulus: 2000 ms (or until response)\n\n\n\n\nLexical Decision Task in OpenSesame\nIn this task, participants must decide whether a displayed string is a real word or a non-word.\nTrial Structure: - Fixation: 1000 ms - Probe: 2000 ms\nYou will define which elements are fixed (e.g., fixation cross) and which vary (e.g., words).\nFixed Properties: - Text always “+” - Foreground and background color\nVarying Properties: - Word: real or non-word - Response keys"
+  },
+  {
+    "objectID": "s5.html#conditionals-in-python",
+    "href": "s5.html#conditionals-in-python",
+    "title": "Session 5",
+    "section": "Conditionals in Python",
+    "text": "Conditionals in Python\n\nStructure\nConditionals allow specific actions depending on whether certain conditions are met.\nBasic Example:\nif [correct] == 1:\n  print('well done')\nif [correct] == 1 and [response_time] < 1000:\n  print('well done')\nelif [correct] == 0:\n  print('try again')\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nComparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow.\n\n\n\nOpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?\n\n\n\nConditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?\n\n\n\nDebugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
+  },
+  {
+    "objectID": "s5.html#comparing-e-prime-and-opensesame",
+    "href": "s5.html#comparing-e-prime-and-opensesame",
+    "title": "Session 5",
+    "section": "Comparing E-Prime and OpenSesame",
+    "text": "Comparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow."
+  },
+  {
+    "objectID": "s5.html#opensesame-task-design",
+    "href": "s5.html#opensesame-task-design",
+    "title": "Session 5",
+    "section": "OpenSesame Task Design",
+    "text": "OpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?"
+  },
+  {
+    "objectID": "s5.html#conditionals-in-python-1",
+    "href": "s5.html#conditionals-in-python-1",
+    "title": "Session 5",
+    "section": "Conditionals in Python",
+    "text": "Conditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?"
+  },
+  {
+    "objectID": "s5.html#debugging-and-error-handling-in-opensesame",
+    "href": "s5.html#debugging-and-error-handling-in-opensesame",
+    "title": "Session 5",
+    "section": "Debugging and Error Handling in OpenSesame",
+    "text": "Debugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?"
   }
 ]
