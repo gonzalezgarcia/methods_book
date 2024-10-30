@@ -191,57 +191,71 @@
   {
     "objectID": "s5.html#opensesame-overview",
     "href": "s5.html#opensesame-overview",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "OpenSesame Overview",
     "text": "OpenSesame Overview\n\nKey Features\n\nOpenSesame is an open-source, Python-based tool for designing experiments.\nIt is free, cross-platform, and has a large online community.\nE-Prime, in contrast, is a paid software that works only on Windows but has more support at CIMCYC."
   },
   {
     "objectID": "s5.html#opensesame-structure",
     "href": "s5.html#opensesame-structure",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "OpenSesame Structure",
     "text": "OpenSesame Structure\nWhile OpenSesame is different from E-Prime, there are some parallels in structure:\n\n\n\nOpenSesame\nE-Prime\n\n\n\n\nlist\nloop\n\n\nprocedure\nsequence\n\n\nslide\nsketchpad\n\n\n\nSome other elements are more specific to OpenSesame, such as the logger and keyboard_response."
   },
   {
     "objectID": "s5.html#task-examples",
     "href": "s5.html#task-examples",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "Task Examples",
     "text": "Task Examples\n\nStroop Task in OpenSesame\nObjective: Name the color of the ink, not the word.\n\nCongruent Example: green.\nIncongruent Example:green.\nTiming:\n\nFixation: 1000 ms\nStimulus: 2000 ms (or until response)\n\n\n\n\nLexical Decision Task in OpenSesame\nIn this task, participants must decide whether a displayed string is a real word or a non-word.\nTrial Structure: - Fixation: 1000 ms - Probe: 2000 ms\nYou will define which elements are fixed (e.g., fixation cross) and which vary (e.g., words).\nFixed Properties: - Text always “+” - Foreground and background color\nVarying Properties: - Word: real or non-word - Response keys"
   },
   {
     "objectID": "s5.html#conditionals-in-python",
     "href": "s5.html#conditionals-in-python",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "Conditionals in Python",
     "text": "Conditionals in Python\n\nStructure\nConditionals allow specific actions depending on whether certain conditions are met.\nBasic Example:\nif [correct] == 1:\n  print('well done')\nif [correct] == 1 and [response_time] < 1000:\n  print('well done')\nelif [correct] == 0:\n  print('try again')\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nComparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow.\n\n\n\nOpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?\n\n\n\nConditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?\n\n\n\nDebugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
   },
   {
     "objectID": "s5.html#comparing-e-prime-and-opensesame",
     "href": "s5.html#comparing-e-prime-and-opensesame",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "Comparing E-Prime and OpenSesame",
     "text": "Comparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow."
   },
   {
     "objectID": "s5.html#opensesame-task-design",
     "href": "s5.html#opensesame-task-design",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "OpenSesame Task Design",
     "text": "OpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?"
   },
   {
     "objectID": "s5.html#conditionals-in-python-1",
     "href": "s5.html#conditionals-in-python-1",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "Conditionals in Python",
     "text": "Conditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?"
   },
   {
     "objectID": "s5.html#debugging-and-error-handling-in-opensesame",
     "href": "s5.html#debugging-and-error-handling-in-opensesame",
-    "title": "Session 5",
+    "title": "Sessions 5-6",
     "section": "Debugging and Error Handling in OpenSesame",
     "text": "Debugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?"
+  },
+  {
+    "objectID": "s7.html#student-suggestions-for-course-improvement",
+    "href": "s7.html#student-suggestions-for-course-improvement",
+    "title": "Reflections and Feedback",
+    "section": "Student Suggestions for Course Improvement",
+    "text": "Student Suggestions for Course Improvement\nBased on collected feedback, here are suggestions for enhancing the learning experience:\n\nFocusing on a Single Software:\n\nMany students suggested concentrating on OpenSesame or another single platform (e.g., PsychoPy) to streamline the learning curve.\nThis would allow more in-depth exploration of coding and experimental design.\n\nMore Emphasis on Coding Basics:\n\nIntroducing coding with structured, step-by-step tutorials.\nAllocating dedicated sessions solely for coding practice would enhance proficiency.\n\nImproving Task Clarity with Additional Resources:\n\nVideo Tutorials: Recording sessions or providing video walkthroughs of tasks could help students revisit complex topics.\nSupplementary Reading: Curated lists of online tutorials or articles on experimental design would aid independent study.\n\nIncreasing Emphasis on Experimental Design:\n\nWhile coding is essential, more context around why certain designs are chosen and how they relate to research questions would benefit overall understanding."
+  },
+  {
+    "objectID": "s7.html#reflection-and-plans-for-next-year",
+    "href": "s7.html#reflection-and-plans-for-next-year",
+    "title": "Reflections and Feedback",
+    "section": "Reflection and Plans for Next Year",
+    "text": "Reflection and Plans for Next Year\nIn light of this feedback, the following changes are being considered for course 2025/26:\n\nDedicated Coding Sessions:\n\nAllocating specific days for coding practice will provide more time for skill development.\n\nSoftware Focus:\n\nBased on student preference, OpenSesame might be the primary tool, with reduced emphasis on E-Prime.\n\nEnhanced Task Explanations:\n\nAdding detailed rationales for task design choices to improve understanding of the research context behind each experiment."
   }
 ]
