@@ -1,0 +1,58 @@
+# Reflections and Feedback {.unnumbered}
+
+
+This session provides an overview of student feedback on the **Methods in Cognitive Neuroscience** course. We also explore suggestions for improvements in teaching and course structure.
+
+---
+
+### Key Learning Points from Feedback
+
+Students noted strengths and areas for improvement, which are summarized below:
+
+**Positive**:
+
+   - Task clarity and organization were appreciated.
+   - Hands-on practice with E-Prime, OpenSesame, as well as Python
+   - Understanding the “why” behind the task design choices.
+
+
+**Challenges**:
+
+  - Difficulty in balancing task coding with conceptual learning.
+  - Transition between OpenSesame and E-Prime was challenging due to time constraints.
+
+
+
+## Student Suggestions for Course Improvement
+Based on collected feedback, here are suggestions for enhancing the learning experience:
+
+1. **Focusing on a Single Software**:
+   - Many students suggested concentrating on **OpenSesame** or another single platform (e.g., **PsychoPy**) to streamline the learning curve.
+   - This would allow more in-depth exploration of coding and experimental design.
+
+2. **More Emphasis on Coding Basics**:
+   - Introducing coding with structured, step-by-step tutorials.
+   - Allocating dedicated sessions solely for coding practice would enhance proficiency.
+
+3. **Improving Task Clarity with Additional Resources**:
+   - **Video Tutorials**: Recording sessions or providing video walkthroughs of tasks could help students revisit complex topics.
+   - **Supplementary Reading**: Curated lists of online tutorials or articles on experimental design would aid independent study.
+
+4. **Increasing Emphasis on Experimental Design**:
+   - While coding is essential, more context around why certain designs are chosen and how they relate to research questions would benefit overall understanding.
+
+
+
+## Reflection and Plans for Next Year
+
+In light of this feedback, the following changes are being considered for course 2025/26:
+
+1. **Dedicated Coding Sessions**:
+   - Allocating specific days for coding practice will provide more time for skill development.
+
+2. **Software Focus**:
+   - Based on student preference, OpenSesame might be the primary tool, with reduced emphasis on E-Prime.
+  
+3. **Enhanced Task Explanations**:
+   - Adding detailed rationales for task design choices to improve understanding of the research context behind each experiment.
+

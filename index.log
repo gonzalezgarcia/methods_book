@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.18)  26 SEP 2024 19:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.26)  26 SEP 2024 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **index.tex
 (./index.tex
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-30>
+L3 programming layer <2024-09-10>
 (/Users/carlos/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2023/07/07 v3.41 KOMA-Script document class (report)
 (/Users/carlos/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -230,7 +230,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (/Users/carlos/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (/Users/carlos/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/Users/carlos/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-08-30 L3 programming layer (loader) 
+Package: expl3 2024-09-10 L3 programming layer (loader) 
 (/Users/carlos/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count278
@@ -1137,15 +1137,15 @@ No file index.toc.
 [2
 
 ]
-! Unable to load picture or PDF file './figs/chatgpt.png'.
+! Unable to load picture or PDF file 'chatgpt.png'.
 <to be read again> 
                    }
-l.187 ...n,height=\textheight]{./figs/chatgpt.png}
+l.187 ....20833in,height=\textheight]{chatgpt.png}
                                                    
 Here is how much of TeX's memory you used:
- 39016 strings out of 476173
- 809828 string characters out of 5784305
- 1507660 words of memory out of 5000000
+ 39015 strings out of 476173
+ 809786 string characters out of 5784305
+ 1507665 words of memory out of 5000000
  61059 multiletter control sequences out of 15000+600000
  561649 words of font info for 67 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191

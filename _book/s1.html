@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Carlos González">
-<meta name="dcterms.date" content="2024-10-30">
 
-<title>Research methods in Cognitive Neuroscience</title>
+<title>Research methods in Cognitive Neuroscience - Session 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./syllabus.html" rel="next">
+<link href="./s2.html" rel="next">
+<link href="./s0.html" rel="prev">
 <link href="./r4epi_favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -72,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Research methods in Cognitive Neuroscience</h1>
+      <h1 class="quarto-secondary-nav-title">Session 1</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -108,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Welcome</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -133,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./s1.html" class="sidebar-item-text sidebar-link">Session 1</a>
+  <a href="./s1.html" class="sidebar-item-text sidebar-link active">Session 1</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -172,7 +171,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#key-stages-in-experimental-development" id="toc-key-stages-in-experimental-development" class="nav-link active" data-scroll-target="#key-stages-in-experimental-development">Key Stages in Experimental Development</a></li>
+  <li><a href="#developing-a-lexical-decision-task" id="toc-developing-a-lexical-decision-task" class="nav-link" data-scroll-target="#developing-a-lexical-decision-task">Developing a Lexical Decision Task</a>
+  <ul class="collapse">
+  <li><a href="#fixed-vs.-varying-properties" id="toc-fixed-vs.-varying-properties" class="nav-link" data-scroll-target="#fixed-vs.-varying-properties">Fixed vs.&nbsp;Varying Properties</a></li>
+  </ul></li>
+  <li><a href="#adding-complexity-to-the-experiment" id="toc-adding-complexity-to-the-experiment" class="nav-link" data-scroll-target="#adding-complexity-to-the-experiment">Adding Complexity to the Experiment</a></li>
+  <li><a href="#adding-a-practice-block" id="toc-adding-a-practice-block" class="nav-link" data-scroll-target="#adding-a-practice-block">Adding a Practice Block</a></li>
   </ul>
 </nav>
     </div>
@@ -181,26 +186,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Research methods in Cognitive Neuroscience</h1>
+<h1 class="title d-none d-lg-block">Session 1</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p><a href="https://gonzalezgarcia.github.io/">Carlos González</a> </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 30, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -208,52 +201,76 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./chatgpt.png" class="img-fluid figure-img" width="500"></p>
-<p></p><figcaption class="figure-caption">AI algorithm hallucinates what this course is about</figcaption><p></p>
-</figure>
-</div>
-<p>This text is aimed to serve as your guide for the first half of the course “Methodology in Cognitive Neuroscience: Basic and Applied Research” in the Master’s Program in Cognitive and Behavioral Neuroscience at the University of Granada.</p>
-<p>In this section, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We’ll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we’ll dive into hands-on training using <a href="https://pstnet.com/products/e-prime/"><strong>E-Prime</strong></a> and <a href="https://osdoc.cogsci.nl/"><strong>OpenSesame</strong></a>, two powerful pieces of software for creating psychology experiments.</p>
-<p>By the end of this module, you will be able to:</p>
+<p>In this session, we will focus on the steps involved in developing an experimental psychology experiment, and we will get our hands on E-Prime, using a <strong>lexical decision task</strong> as an example. Below is an outline of the key stages and concepts we’ll be implementing in E-Prime for this experiment.</p>
+<section id="key-stages-in-experimental-development" class="level2">
+<h2 class="anchored" data-anchor-id="key-stages-in-experimental-development">Key Stages in Experimental Development</h2>
+<ol type="1">
+<li><p><strong>Conceptualize the Core Experimental (trial) Procedure</strong><br>
+This is where you define the fundamental, hierarchical structure of the experiment.</p></li>
+<li><p><strong>Elaborate the Trial Procedure</strong><br>
+Determine how each trial will flow and what elements will be presented.</p></li>
+<li><p><strong>Add All Conditions and Set the Number of Trials and Sampling Strategy</strong><br>
+Define the independent variables, number of trials, and how trials are sampled.</p></li>
+<li><p><strong>Add Blocks and Block Conditions</strong><br>
+Break the trials into blocks and set conditions for each block.</p></li>
+<li><p><strong>Add a Practice Block</strong><br>
+Include a practice phase where participants can familiarize themselves with the task.</p></li>
+<li><p><strong>Testing and Running the Program</strong><br>
+Ensure the experiment runs smoothly and make any necessary adjustments.</p></li>
+<li><p><strong>Perform Basic Data Analysis</strong><br>
+Take a first look at the results once the data is collected to make sure everything looks fine.</p></li>
+</ol>
+</section>
+<section id="developing-a-lexical-decision-task" class="level2">
+<h2 class="anchored" data-anchor-id="developing-a-lexical-decision-task">Developing a Lexical Decision Task</h2>
+<p>In this session, we’ll create a <strong>lexical decision task</strong>, where participants must determine whether a string of letters is a word or a non-word. The task will consist of several trials, each with the following sequence:</p>
 <ul>
-<li>Understand and apply principles of experimental design in cognitive neuroscience</li>
-<li>Think critically about research methodology and experimental control</li>
-<li>Design and program your own experiments using E-Prime and OpenSesame</li>
-<li>Troubleshoot common issues in experiment programming</li>
+<li><strong>Fixation</strong>: Displayed for 1000ms<br>
+</li>
+<li><strong>Probe</strong>: Displayed for 2000ms</li>
 </ul>
-<p>This guide is designed to be both theoretical and practical. Most of the chapters include conceptual discussions followed by hands-on exercises to help you apply what you’ve learned. Remember, mastering these skills requires practice, creativity, and persistence!</p>
+<p>For each trial, the word will either be a real word (e.g., “cat”) or a non-word (e.g., “jop”). The task will require participants to press a specific key based on whether they think the displayed string is a word or non-word.</p>
+<section id="fixed-vs.-varying-properties" class="level3">
+<h3 class="anchored" data-anchor-id="fixed-vs.-varying-properties">Fixed vs.&nbsp;Varying Properties</h3>
+<p>To understand how E-Prime works, a key concept to always keep in mind is the distinction between fixed and varying properties in an experiment: - <strong>Fixed properties</strong>: Elements like the fixation display (e.g., position, color, duration) will remain the same across trials. - <strong>Varying properties</strong>: The actual words and correct responses will change with each trial.</p>
+<p>If we define which properties remain constant and which vary across trials when designing each event, it will be easir to understand which information goes into a <strong>procedure</strong> and what goes into a <strong>list</strong>.</p>
+</section>
+</section>
+<section id="adding-complexity-to-the-experiment" class="level2">
+<h2 class="anchored" data-anchor-id="adding-complexity-to-the-experiment">Adding Complexity to the Experiment</h2>
+<p>We will also explore the following adjustments:</p>
+<ul>
+<li><strong>Blocks</strong>: The experiment will consist of two blocks, with a break in between.</li>
+<li><strong>Counterbalancing</strong>: To avoid response bias, responses can be counterbalanced across participants. For example:
+<ul>
+<li>Participant 1: word = “k”, non-word = “l”</li>
+<li>Participant 2: word = “l”, non-word = “k”</li>
+</ul></li>
+</ul>
+</section>
+<section id="adding-a-practice-block" class="level2">
+<h2 class="anchored" data-anchor-id="adding-a-practice-block">Adding a Practice Block</h2>
+<p>Before the actual experiment, we’ll include a practice block with the following key differences: - Feedback will be provided after each trial to help participants learn the task. - Practice trials will be marked separately to exclude them from the final data analysis.</p>
+<hr>
 <div class="callout-tip callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Relevant links
+Food for thought
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><a href="https://masteres.ugr.es/neurocg/docencia/plan-estudios/guia-docente/M30/56/2/27">Course guide</a></p>
+<ul>
+<li>Why is it essential to define both <strong>fixed</strong> and <strong>varying</strong> properties for an experiment? Provide examples of each in the context of a Stroop task.</li>
+</ul>
 </div>
 </div>
-<div class="callout-warning callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Disclaimer
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-25.</p>
-<p>The resources listed here are Open Educational Resources (OER) that are free to use, share, copy, and edit, with attribution, following the terms of the specified license.</p>
-<p>Please contact <a href="https://ugr.es/~cgonzalez">Carlos González</a> for any inquiry.</p>
-</div>
-</div>
+<hr>
+<p>Below, you can find the slides from this session:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRByRdRAHhe3MzDJ75RMNt_p7U95zQf_oVu_r0066Obb5LZO-MnF3e4pHDARbxvW7zREmWXZcynZcyo/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
 
 
 </section>
@@ -394,10 +411,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./s0.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 0: Course kick-off</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./syllabus.html" class="pagination-link">
-        <span class="nav-page-text">Syllabus</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./s2.html" class="pagination-link">
+        <span class="nav-page-text">Session 2</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

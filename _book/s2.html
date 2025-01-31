@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research methods in Cognitive Neuroscience - Session 0: Course kick-off</title>
+<title>Research methods in Cognitive Neuroscience - Session 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./s1.html" rel="next">
-<link href="./syllabus.html" rel="prev">
+<link href="./s3.html" rel="next">
+<link href="./s1.html" rel="prev">
 <link href="./r4epi_favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Session 0: Course kick-off</h1>
+      <h1 class="quarto-secondary-nav-title">Session 2</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./s0.html" class="sidebar-item-text sidebar-link active">Session 0: Course kick-off</a>
+  <a href="./s0.html" class="sidebar-item-text sidebar-link">Session 0: Course kick-off</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./s2.html" class="sidebar-item-text sidebar-link">Session 2</a>
+  <a href="./s2.html" class="sidebar-item-text sidebar-link active">Session 2</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -171,11 +171,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#from-research-questions-to-data" id="toc-from-research-questions-to-data" class="nav-link active" data-scroll-target="#from-research-questions-to-data">From Research Questions to Data</a></li>
-  <li><a href="#tools-for-experimental-design" id="toc-tools-for-experimental-design" class="nav-link" data-scroll-target="#tools-for-experimental-design">Tools for Experimental Design</a>
+  <li><a href="#developing-a-lexical-decision-task" id="toc-developing-a-lexical-decision-task" class="nav-link active" data-scroll-target="#developing-a-lexical-decision-task">Developing a Lexical Decision Task</a>
   <ul class="collapse">
-  <li><a href="#e-prime" id="toc-e-prime" class="nav-link" data-scroll-target="#e-prime">E-Prime</a></li>
-  <li><a href="#opensesame" id="toc-opensesame" class="nav-link" data-scroll-target="#opensesame">OpenSesame</a></li>
+  <li><a href="#trial-structure" id="toc-trial-structure" class="nav-link" data-scroll-target="#trial-structure">Trial Structure</a></li>
+  <li><a href="#adding-blocks" id="toc-adding-blocks" class="nav-link" data-scroll-target="#adding-blocks">Adding Blocks</a></li>
+  <li><a href="#adding-feedback-to-trials" id="toc-adding-feedback-to-trials" class="nav-link" data-scroll-target="#adding-feedback-to-trials">Adding Feedback to Trials</a></li>
+  <li><a href="#adding-all-trials" id="toc-adding-all-trials" class="nav-link" data-scroll-target="#adding-all-trials">Adding All Trials</a></li>
+  <li><a href="#counterbalancing-responses" id="toc-counterbalancing-responses" class="nav-link" data-scroll-target="#counterbalancing-responses">Counterbalancing Responses</a></li>
+  </ul></li>
+  <li><a href="#first-task-submission-the-flanker-task" id="toc-first-task-submission-the-flanker-task" class="nav-link" data-scroll-target="#first-task-submission-the-flanker-task">First Task Submission: The Flanker Task</a>
+  <ul class="collapse">
+  <li><a href="#key-elements-of-the-flanker-task" id="toc-key-elements-of-the-flanker-task" class="nav-link" data-scroll-target="#key-elements-of-the-flanker-task">Key Elements of the Flanker Task</a></li>
+  <li><a href="#task-design" id="toc-task-design" class="nav-link" data-scroll-target="#task-design">Task Design</a></li>
+  <li><a href="#probe-list" id="toc-probe-list" class="nav-link" data-scroll-target="#probe-list">Probe List</a></li>
+  <li><a href="#extra-points" id="toc-extra-points" class="nav-link" data-scroll-target="#extra-points">Extra Points</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -185,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Session 0: Course kick-off</h1>
+<h1 class="title d-none d-lg-block">Session 2</h1>
 </div>
 
 
@@ -200,55 +209,144 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="from-research-questions-to-data" class="level2">
-<h2 class="anchored" data-anchor-id="from-research-questions-to-data">From Research Questions to Data</h2>
-<p>The essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:</p>
+<p>In this session, we’ll continue developing our understanding of cognitive experiments, focusing on the <strong>lexical decision task</strong> and exploring the use of feedback, counterbalancing, and nested lists. Additionally, we’ll introduce the first task submission involving the <strong>Flanker Task</strong>.</p>
+<section id="developing-a-lexical-decision-task" class="level2">
+<h2 class="anchored" data-anchor-id="developing-a-lexical-decision-task">Developing a Lexical Decision Task</h2>
+<section id="trial-structure" class="level3">
+<h3 class="anchored" data-anchor-id="trial-structure">Trial Structure</h3>
+<p>Each trial in the lexical decision task involves the following sequence:</p>
 <ul>
-<li><strong>Between-participants design</strong>: Each participant experiences only one level of a factor.</li>
-<li><strong>Within-participants design</strong>: Participants experience multiple levels of a factor, allowing for within-subject comparisons.</li>
-<li><strong>Mixed designs</strong>: Combining elements of both between- and within-participant designs.</li>
+<li><strong>Fixation</strong>: Displayed for 1000 ms</li>
+<li><strong>Probe</strong>: Displayed for 2000 ms</li>
 </ul>
-<p>There are also techniques like <strong>counterbalancing</strong> to mitigate order effects and ensure reliable, replicable results.</p>
+<p>The key goal is to understand what elements need to be fixed (e.g., fixation cross, display duration) and what should vary (e.g., the word presented, correct response).</p>
 </section>
-<section id="tools-for-experimental-design" class="level2">
-<h2 class="anchored" data-anchor-id="tools-for-experimental-design">Tools for Experimental Design</h2>
-<p>During the programming phase, you’ll become familiar with two key software tools:</p>
-<section id="e-prime" class="level3">
-<h3 class="anchored" data-anchor-id="e-prime">E-Prime</h3>
-<ul>
-<li>Widely used at CIMCYC</li>
-<li>Great for users with little coding experience</li>
-<li>Only available on Windows (License required; check PRADO)</li>
-</ul>
-</section>
-<section id="opensesame" class="level3">
-<h3 class="anchored" data-anchor-id="opensesame">OpenSesame</h3>
-<ul>
-<li>Python-based and open source</li>
-<li>Cross-platform and free</li>
-<li>Requires basic coding knowledge, but has a large online community</li>
-</ul>
-<p>If you need help accessing these tools or have a non-Windows computer, feel free to reach out!</p>
+<section id="adding-blocks" class="level3">
+<h3 class="anchored" data-anchor-id="adding-blocks">Adding Blocks</h3>
+<p>To add more complexity, we can divide the trials into blocks, with breaks in between.</p>
 <div class="callout-tip callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Relevant readings
+Homework
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>For more reading, check out the following resources:</p>
+<p>How would you add a practice block to the task?:::</p>
+</div>
+</div>
+</section>
+<section id="adding-feedback-to-trials" class="level3">
+<h3 class="anchored" data-anchor-id="adding-feedback-to-trials">Adding Feedback to Trials</h3>
 <ul>
-<li><a href="https://granatensis.ugr.es/discovery/fulldisplay?docid=alma991014333689904990&amp;context=L&amp;vid=34CBUA_UGR:VU1">Myers, Well, &amp; Lorch (2013). Research Design and Statistical Analysis</a></li>
-<li><a href="https://experimentology.io/">Experimentology</a></li>
-<li><a href="https://jmourabarbosa.github.io/files/Barbosa_2022_BRM.pdf">Barbosa (2022)</a></li>
+<li>Add a <strong>FeedbackDisplay</strong> object as the last event in your trial procedure.</li>
+<li>Explore the feedback’s default options (e.g., states, duration).</li>
+<li>Use the <em>“Input Object Name”</em> to base the feedback on a specific object (e.g., correct response).</li>
 </ul>
-</div>
-</div>
 <div class="callout-tip callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Homework
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>How would you add feedback only to the practice block?</p>
+</div>
+</div>
+</section>
+<section id="adding-all-trials" class="level3">
+<h3 class="anchored" data-anchor-id="adding-all-trials">Adding All Trials</h3>
+<p>There are different ways to add trials: - If the number of trials is small, you can manually enter the conditions. - For a large number of trials, use <strong>nested lists</strong>. This involves: - Reducing the trial list to the number of conditions. - Creating a new list for each condition, which contains the trial exemplars.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Keep at least two rows per condition to avoid predictable sequences.</p>
+</div>
+</div>
+</section>
+<section id="counterbalancing-responses" class="level3">
+<h3 class="anchored" data-anchor-id="counterbalancing-responses">Counterbalancing Responses</h3>
+<p>To prevent response bias, you can counterbalance responses across participants. For example: - <strong>Participant 1</strong>: word = “k”; non-word = “l” - <strong>Participant 2</strong>: word = “l”; non-word = “k”</p>
+<hr>
+</section>
+</section>
+<section id="first-task-submission-the-flanker-task" class="level2">
+<h2 class="anchored" data-anchor-id="first-task-submission-the-flanker-task">First Task Submission: The Flanker Task</h2>
+<p><strong>Deadline</strong>: October 20th</p>
+<p>In this task, you will explore the <strong>effect of congruence on response inhibition</strong> using the Flanker Task, which assesses the ability to suppress inappropriate responses.</p>
+<section id="key-elements-of-the-flanker-task" class="level3">
+<h3 class="anchored" data-anchor-id="key-elements-of-the-flanker-task">Key Elements of the Flanker Task</h3>
+<ul>
+<li><strong>Congruent Trials</strong>: Where flankers and the target match (e.g., HHHHH).</li>
+<li><strong>Incongruent Trials</strong>: Where the flankers and the target do not match (e.g., SSHSS).</li>
+</ul>
+<section id="sequence-of-events-per-trial" class="level4">
+<h4 class="anchored" data-anchor-id="sequence-of-events-per-trial">Sequence of Events per Trial</h4>
+<ul>
+<li><strong>Fixation</strong> (150 ms)</li>
+<li><strong>Probe</strong> (80 ms)</li>
+<li><strong>Response Window</strong> (800 ms)</li>
+<li><strong>Feedback</strong> (300 ms)</li>
+</ul>
+</section>
+</section>
+<section id="task-design" class="level3">
+<h3 class="anchored" data-anchor-id="task-design">Task Design</h3>
+<p>The experiment will follow a <strong>2 (between-participants) x 2 (within-participants) design</strong>: - <strong>Between-participants factor</strong>: Proportion of congruence (50% vs 80% incongruent trials). - <strong>Within-participants factor</strong>: Congruence (congruent vs incongruent trials).</p>
+<p>Each participant will complete 80 trials in total, equally distributed across the conditions.</p>
+</section>
+<section id="probe-list" class="level3">
+<h3 class="anchored" data-anchor-id="probe-list">Probe List</h3>
+<p>You must use <strong>nested lists</strong> for random probe selection, ensuring that all probes are used the same number of times across trials.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Congruent</strong></th>
+<th><strong>Incongruent</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AAAAA</td>
+<td>AABAA</td>
+</tr>
+<tr class="even">
+<td>BBBBB</td>
+<td>BBABB</td>
+</tr>
+<tr class="odd">
+<td>XXXXX</td>
+<td>XXYXX</td>
+</tr>
+<tr class="even">
+<td>YYYYY</td>
+<td>YYXYY</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="extra-points" class="level3">
+<h3 class="anchored" data-anchor-id="extra-points">Extra Points</h3>
+<ul>
+<li>Counterbalance the proportion of congruence between participants (e.g., group 1 = 50%, group 2 = 80%).</li>
+<li>Run three “participants”, merge their data, and compute the mean <strong>reaction time (RT)</strong> and <strong>accuracy (ACC)</strong> for each condition.</li>
+</ul>
+<p>Please upload your completed task to <strong>PRADO</strong> or send it via email. Late submissions will incur a 20% penalty.</p>
+<hr>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -257,40 +355,50 @@ Food for thought
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="understanding-experimental-design" class="level3">
-<h3 class="anchored" data-anchor-id="understanding-experimental-design">1. Understanding Experimental Design</h3>
+<p>Consider the following questionsn:</p>
+<section id="trial-structure-and-experimental-design" class="level3">
+<h3 class="anchored" data-anchor-id="trial-structure-and-experimental-design">Trial Structure and Experimental Design</h3>
 <ul>
-<li>What are the key differences between <strong>between-participants</strong> and <strong>within-participants</strong> designs, and in what scenarios would you prefer one over the other?</li>
-<li>Reflect on the importance of <strong>counterbalancing</strong> in experimental design. How does it help improve the reliability of an experiment?</li>
+<li>What are the advantages of using <strong>nested lists</strong> when designing experiments with a large number of trials or conditions? How does this affect the flexibility and scalability of your experimental design?</li>
+<li>Why is it important to balance the number of trials across conditions, and what issues could arise if this balance is not maintained?</li>
 </ul>
 </section>
-<section id="from-research-questions-to-experiment-design" class="level3">
-<h3 class="anchored" data-anchor-id="from-research-questions-to-experiment-design">2. From Research Questions to Experiment Design</h3>
+<section id="feedback-in-cognitive-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-in-cognitive-tasks">Feedback in Cognitive Tasks</h3>
 <ul>
-<li>How would you approach transforming a cognitive neuroscience research question into a concrete experimental procedure? What are the key stages you must consider?</li>
-<li>How do <strong>repeated measures</strong> (within-participant designs) affect the interpretation of experimental data compared to between-participant designs?</li>
+<li>How does adding <strong>feedback</strong> in a cognitive task, particularly in a <strong>practice block</strong>, help participants perform better in the actual trials? What are the potential downsides of providing feedback in all blocks?</li>
+<li>Reflect on the role of <strong>feedback</strong> in learning and task performance. Should feedback always be included in experiments, or are there scenarios where it might interfere with data collection?</li>
 </ul>
 </section>
-<section id="programming-and-tools" class="level3">
-<h3 class="anchored" data-anchor-id="programming-and-tools">3. Programming and Tools</h3>
+<section id="counterbalancing-and-bias" class="level3">
+<h3 class="anchored" data-anchor-id="counterbalancing-and-bias">Counterbalancing and Bias</h3>
 <ul>
-<li>Compare and contrast the strengths and weaknesses of <strong>E-Prime</strong> and <strong>OpenSesame</strong>. How might the choice of tool affect the design and execution of your experiment?</li>
-<li>In programming an experiment, why is it important to understand both the user interface (e.g., E-Prime’s <strong>E-Studio</strong>) and coding components (e.g., <strong>Inline Scripts</strong>)?</li>
+<li>Why is <strong>counterbalancing</strong> critical in cognitive tasks, such as the <strong>lexical decision task</strong> or the <strong>Flanker task</strong>? What would be the consequences of failing to counterbalance responses across participants?</li>
+<li>How does counterbalancing responses improve the <strong>internal validity</strong> of an experiment? Can counterbalancing introduce any unintended complexities in data analysis?</li>
 </ul>
 </section>
-<section id="ethical-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="ethical-considerations">4. Ethical Considerations</h3>
+<section id="the-flanker-task" class="level3">
+<h3 class="anchored" data-anchor-id="the-flanker-task">The Flanker Task</h3>
 <ul>
-<li>When designing experiments in cognitive neuroscience, what ethical considerations should be taken into account? How can these be incorporated into the design phase?</li>
+<li>In the context of the <strong>Flanker task</strong>, how does the proportion of congruent versus incongruent trials affect <strong>response inhibition</strong>? Why might a higher proportion of incongruent trials make it easier for participants to control inappropriate responses?</li>
+<li>Reflect on how varying the <strong>proportion of congruent and incongruent trials</strong> could affect the interpretation of reaction time (RT) and accuracy (ACC) results. How might these effects differ across participants with varying cognitive control abilities?</li>
+</ul>
+</section>
+<section id="experimental-controls-and-variability" class="level3">
+<h3 class="anchored" data-anchor-id="experimental-controls-and-variability">Experimental Controls and Variability</h3>
+<ul>
+<li>What are some potential challenges in designing experiments with both <strong>within-participants</strong> and <strong>between-participants</strong> factors, as seen in the Flanker task? How can you minimize participant variability while maintaining the experimental design’s integrity?</li>
+<li>Why is it important to control for the sequence and timing of stimuli presentation, and how do randomization and counterbalancing help address these issues?</li>
 </ul>
 </section>
 </div>
 </div>
 </div>
+<hr>
 <p>Below, you can find the slides from this session:</p>
-<iframe src="https://docs.google.com/presentation/d/17XcCP30txfQTdQ5MNZudlYxO4c-4MlXHwdlbRDrsp7o/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSguTMA_Gk9I2L5LDV9mExL4KDYSrZrvBEEXlJNA6SUgfDHjJZXZxjPYY7tLYBgSAVbw3gVTprict2d/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 
 
@@ -433,13 +541,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./syllabus.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Syllabus</span>
+      <a href="./s1.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 1</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./s1.html" class="pagination-link">
-        <span class="nav-page-text">Session 1</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./s3.html" class="pagination-link">
+        <span class="nav-page-text">Session 3</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

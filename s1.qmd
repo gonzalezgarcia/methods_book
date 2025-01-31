@@ -1,0 +1,72 @@
+# Session 1 {.unnumbered}
+
+In this session, we will focus on the steps involved in developing an experimental psychology experiment, and we will get our hands on E-Prime, using a **lexical decision task** as an example. Below is an outline of the key stages and concepts we'll be implementing in E-Prime for this experiment.
+
+## Key Stages in Experimental Development
+
+1. **Conceptualize the Core Experimental (trial) Procedure**  
+   This is where you define the fundamental, hierarchical structure of the experiment.
+   
+2. **Elaborate the Trial Procedure**  
+   Determine how each trial will flow and what elements will be presented.
+
+3. **Add All Conditions and Set the Number of Trials and Sampling Strategy**  
+   Define the independent variables, number of trials, and how trials are sampled.
+
+4. **Add Blocks and Block Conditions**  
+   Break the trials into blocks and set conditions for each block.
+
+5. **Add a Practice Block**  
+   Include a practice phase where participants can familiarize themselves with the task.
+
+6. **Testing and Running the Program**  
+   Ensure the experiment runs smoothly and make any necessary adjustments.
+
+7. **Perform Basic Data Analysis**  
+   Take a first look at the results once the data is collected to make sure everything looks fine.
+
+## Developing a Lexical Decision Task
+
+In this session, we’ll create a **lexical decision task**, where participants must determine whether a string of letters is a word or a non-word. The task will consist of several trials, each with the following sequence:
+
+- **Fixation**: Displayed for 1000ms  
+- **Probe**: Displayed for 2000ms
+
+For each trial, the word will either be a real word (e.g., "cat") or a non-word (e.g., "jop"). The task will require participants to press a specific key based on whether they think the displayed string is a word or non-word.
+
+
+### Fixed vs. Varying Properties
+To understand how E-Prime works, a key concept to always keep in mind is the distinction between fixed and varying properties in an experiment:
+- **Fixed properties**: Elements like the fixation display (e.g., position, color, duration) will remain the same across trials.
+- **Varying properties**: The actual words and correct responses will change with each trial.
+
+If we define which properties remain constant and which vary across trials when designing each event, it will be easir to understand which information goes into a **procedure** and what goes into a **list**.
+
+## Adding Complexity to the Experiment
+
+We will also explore the following adjustments:
+
+- **Blocks**: The experiment will consist of two blocks, with a break in between.
+- **Counterbalancing**: To avoid response bias, responses can be counterbalanced across participants. For example:
+  - Participant 1: word = “k”, non-word = “l”
+  - Participant 2: word = “l”, non-word = “k”
+
+## Adding a Practice Block
+
+Before the actual experiment, we’ll include a practice block with the following key differences:
+- Feedback will be provided after each trial to help participants learn the task.
+- Practice trials will be marked separately to exclude them from the final data analysis.
+
+---
+
+:::{.callout-tip}
+## Food for thought
+
+- Why is it essential to define both **fixed** and **varying** properties for an experiment? Provide examples of each in the context of a Stroop task.
+
+:::
+---
+
+Below, you can find the slides from this session:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRByRdRAHhe3MzDJ75RMNt_p7U95zQf_oVu_r0066Obb5LZO-MnF3e4pHDARbxvW7zREmWXZcynZcyo/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

@@ -4,10 +4,30 @@ project:
 book:
   author: "[Carlos González](https://gonzalezgarcia.github.io/)"
   title: "Research methods in Cognitive Neuroscience"
+  date: today # Figure out how to automatically update the date on render.
+  favicon: r4epi_favicon.png
+  repo-url: https://github.com/gonzalezgarcia/methods_book
+  page-footer: 
+    left: |
+      Methods in CogNeuro
+    right: |
+      Built with ♥️ with <a href="https://quarto.org/">Quarto</a>.
+  page-navigation: true
   chapters:
-    - index.qmd
-    - syllabus.qmd
-    - s0.qmd
+    - part: "Course information"
+      chapters:
+      - index.qmd
+      - syllabus.qmd
+    - part: "Weekly content"
+      chapters:
+      - s0.qmd
+      - s1.qmd
+      - s2.qmd
+      - s3.qmd
+      - s4.qmd
+      - s5.qmd
+      - s7.qmd
+      
   sidebar:
     title: "Methods in CogNeuro"
 
@@ -16,8 +36,13 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
+
+# To make sure that R, Python, and Julia code is only executed locally, 
+# configure your project to use Quarto’s freeze feature by adding this to your 
+# _quarto.yml. (https://quarto.org/docs/publishing/netlify.html)
+execute:
+  freeze: auto
+
 
 
 

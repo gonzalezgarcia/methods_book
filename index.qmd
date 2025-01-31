@@ -1,14 +1,8 @@
----
-format:
-  pdf:
-    toc: true
-  html:
-    embed-resources: true
----
+
 
 # Welcome {.unnumbered}
 
-![AI algorithm hallucinates what this course is about](figs/chatgpt.png){width=500}
+![AI algorithm hallucinates what this course is about](/chatgpt.png){width=500}
 
 This text is aimed to serve as your guide for the first half of the course "Methodology in Cognitive Neuroscience: Basic and Applied Research" in the Master's Program in Cognitive and Behavioral Neuroscience at the University of Granada.
 

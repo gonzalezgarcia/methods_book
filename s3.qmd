@@ -1,0 +1,187 @@
+# Session 3 {.unnumbered}
+
+In this session, we delve deeper into **E-Basic**, the programming language used in E-Prime. We'll cover key programming notions such as variables, conditionals, and the use of objects in experiments.
+
+## Key Programming Notions in E-Basic
+
+### Variables
+- **Variables** store and manipulate data. You can name them whatever you like and store different types of information:
+  - **Integer** (numeric values)
+  - **Strings** (text)
+  - **Boolean** (true or false)
+- In **E-Prime**, variables can be defined in the "User Script" tab (global scope) or within **InLine** objects (local scope).
+
+**Example**: 
+
+```python
+Dim trialCounter As Integer
+trialCounter = 0
+fixation.Text = "+"
+```
+### Objects in E-Basic
+
+- Objects have properties that can be updated.
+ - Example: `Object.Text = 'Welcome'`, `Object.ForeColor = Color.Red`
+- Objects also have methods that perform actions or provide values.
+ - Example: `Object.Run`, `Object.Mean`
+
+### Using Attributes and Debugging
+
+- You can update the attributes of a list using InLines.
+ - Example: `c.SetAttrib "StimText", "Hi World!"`
+- Debugging prompts help verify if the experiment is running correctly.
+ - Example: `Debug.Print "the experiment is working"`
+
+## Conditionals in E-Basic
+
+Conditionals allow specific actions based on whether a condition is met.
+
+```python
+If logic Then
+  action
+End If
+```
+
+```python
+If target.RT > 1000 Then
+  Feedback.Text = "too slow!"
+End If
+
+```
+
+:::{.callout-tip}
+## Excercise
+
+Create an InLine with a conditional:
+
+- If RT to the target is faster than 1000 ms, display *"you’re doing great"*.
+- If RT is slower than 1000 ms, display *"please, try to answer faster"*.
+:::
+
+:::{.callout-tip collapse="true"}
+## Want to see the solution?
+
+
+```python
+If target.RT < 1000 Then
+  Feedback.Text = "great!"
+Else
+  Feedback.Text = "faster"
+End If
+
+
+```
+
+:::
+
+## GoTo Label
+
+Labels mark specific points in the experiment, and GoTo allows you to jump to these flags. This is useful for:
+
+- Skipping parts of the experiment (e.g., skipping feedback in the non-practice phase).
+- Repeating parts of the experiment (e.g., repeating the practice phase if criteria are not met).
+
+
+:::{.callout-tip}
+## Excercise
+Add a **TextDisplay** after a block with the prompt: *"If you want to repeat the block, press 'y'"*. Use **Label** and **InLine** objects to repeat the block if 'y' is pressed.
+:::
+
+:::{.callout-tip collapse="true"}
+## Want to see the solution?
+
+
+```python
+If Repeat.RESP = "y" Then
+  GoTo PracticeLabel
+End If
+
+
+
+```
+
+:::
+
+## Summation Object
+
+The Summation object computes average accuracy after a specified number of trials or blocks.
+
+Steps:
+
+1. Declare a **Summation** object in the **User** tab
+
+```python
+Dim PracticeAcc As Summation
+```
+
+2. Initialize the object at the beginning of the experiment.
+
+```python
+Set PracticeAcc = New Summation
+```
+
+3. Add an observation after each trial.
+
+```python
+PracticeAcc.AddObservation Stimulus.ACC
+```
+
+:::{.callout-tip}
+## Excercise
+Create a summation to compute accuracy after the fifth trial and end practice if accuracy exceeds 80%.
+:::
+
+:::{.callout-tip collapse="true"}
+## Want to see the solution?
+
+
+```python
+Dim PracticeAcc As Summation
+Dim TrialCounter As Integer
+
+Set PracticeAcc = New Summation
+TrialCounter = 0
+
+TrialCount = TrialCount + 1
+PracticeAcc.AddObservation Stimulus.ACC
+
+If TrialCount > 5 And PracticeAcc.Mean > .80 Then
+  TrialList.Terminate
+End If
+
+```
+
+:::
+
+---
+
+:::{.callout-tip collapse="true"}
+## Food for thought
+
+
+### Variables and Objects in E-Basic
+- Why is it important to understand the difference between **global** and **local scope** when defining variables in E-Basic? Can you think of situations where one would be more advantageous than the other?
+- How can modifying the properties and methods of objects, such as `Object.Text` and `Object.Run`, impact the flow and presentation of your experiment? Provide an example.
+
+### Conditionals in E-Basic
+- What is the role of **conditionals** in controlling the logic of your experiment? How does using conditionals like `If...Then...Else` help you manage different responses in a trial?
+- Consider a scenario where reaction time is crucial. How would you use conditionals to provide real-time feedback to participants based on their performance?
+
+### Using GoTo Labels in Experimental Design
+- In what situations would using **GoTo** labels improve the structure of your experiment? What are the potential risks of using GoTo commands improperly in a larger experimental setup?
+- How could the **GoTo** command be used to allow participants to repeat specific blocks of trials without restarting the entire experiment? 
+
+### Summation Object and Accuracy Tracking
+- How does the **Summation** object help monitor participant performance across trials? What are the benefits of using this object to track accuracy?
+- If a participant is consistently below the 80% accuracy threshold, what steps could you take to adapt the experiment and improve their performance? Reflect on how accuracy thresholds can be implemented using the **Summation** object.
+  
+### Debugging and Code Testing
+- How does the use of `Debug.Print` assist in testing and troubleshooting your experiment? Why is it useful to check the state of variables like `TrialCounter` while running the program?
+- Reflect on the importance of continuous debugging during the development of a complex experiment. What strategies can you use to ensure that errors are caught and corrected early?
+
+:::
+---
+
+Below, you can find the slides from this session:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ_wMzdlqxHHTnw-nT1v30OOPk38fTrihcJRpsi0ZB9qgxWiEgFyl5RZldAv37B5_C15P0zIMJjmEa5/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

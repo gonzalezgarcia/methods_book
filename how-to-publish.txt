@@ -1,0 +1,11 @@
+https://kalonjilabs.com/posts/how-to-publish-quarto/
+
+# navigate to the directory where the book is stored
+cd Documents/GitHub/methods_book 
+
+# optional: preview the book
+quarto preview
+
+# push to GitHub
+quarto publish gh-pages
+

@@ -1,11 +1,12 @@
----
-title: "Syllabus"
-format: 
-  html:
-    embed-resources: true
-  pdf: default
-  
----
+
+# Syllabus {.unnumbered}
+
+## Schedule
+
+Classes will take place at Seminario 3 (CIMCYC) on **Wednesday from 17:00 to 18:50** and **Fridays from 09:00 to 10:50**.
+
+![](/schedule.png){width=800}
+
 
 ## Required Software
 

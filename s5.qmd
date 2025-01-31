@@ -1,0 +1,106 @@
+# Sessions 5-6 {.unnumbered}
+
+
+In this session, we will explore **OpenSesame** as an alternative to E-Prime, covering the structure of OpenSesame, a comparison between both tools, and how to create tasks like the Stroop and lexical decision tasks.
+
+## OpenSesame Overview
+
+### Key Features
+- **OpenSesame** is an open-source, Python-based tool for designing experiments.
+- It is free, cross-platform, and has a large online community.
+- **E-Prime**, in contrast, is a paid software that works only on Windows but has more support at CIMCYC.
+
+---
+
+## OpenSesame Structure
+
+While OpenSesame is different from E-Prime, there are some parallels in structure:
+
+| **OpenSesame** | **E-Prime**       |
+| -------------- | ----------------- |
+| **list**       | loop               |
+| **procedure**  | sequence           |
+| **slide**      | sketchpad          |
+
+Some other elements are more specific to OpenSesame, such as the **logger** and **keyboard_response**.
+
+---
+
+## Task Examples
+
+### Stroop Task in OpenSesame
+
+**Objective**: Name the color of the ink, not the word.
+
+- **Congruent Example**: <span style="color:green">**green**</span>.
+- **Incongruent Example**:<span style="color:red">**green**</span>.
+- **Timing**:
+  - Fixation: 1000 ms
+  - Stimulus: 2000 ms (or until response)
+
+### Lexical Decision Task in OpenSesame
+
+In this task, participants must decide whether a displayed string is a real word or a non-word.
+
+**Trial Structure**:
+- **Fixation**: 1000 ms
+- **Probe**: 2000 ms
+
+You will define which elements are fixed (e.g., fixation cross) and which vary (e.g., words).
+
+**Fixed Properties**:
+- Text always "+"
+- Foreground and background color
+
+**Varying Properties**:
+- Word: real or non-word
+- Response keys
+
+---
+
+## Conditionals in Python
+
+### Structure
+Conditionals allow specific actions depending on whether certain conditions are met.
+
+**Basic Example**:
+
+```python
+if [correct] == 1:
+  print('well done')
+```
+
+```python
+if [correct] == 1 and [response_time] < 1000:
+  print('well done')
+elif [correct] == 0:
+  print('try again')
+```
+---
+
+:::{.callout-tip collapse="true"}
+## Food for thought
+
+## Comparing E-Prime and OpenSesame
+- In what scenarios would you choose **OpenSesame** over **E-Prime** for designing an experiment? How does the **open-source** nature of OpenSesame influence its usability and flexibility compared to E-Prime?
+- What are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow.
+
+## OpenSesame Task Design
+- When designing the **Stroop task** in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?
+- In the **lexical decision task** (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?
+
+## Conditionals in Python
+- How does using **conditionals** in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).
+- Compare the use of **conditionals** in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?
+
+## Debugging and Error Handling in OpenSesame
+- Why is the **debug console** in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like **subject_parity** and ensure your conditionals are working as expected?
+- What challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?
+
+
+:::
+---
+
+Below, you can find the slides from this session:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTc-OIb7WXraot70eMFfA_Kfu-hl85Je6zaokw3LGNCKf6nGZMn7nlPNgbqzRsqBwzBvf0INJZ6pUFf/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
