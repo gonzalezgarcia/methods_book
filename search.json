@@ -4,258 +4,450 @@
     "href": "index.html",
     "title": "Research methods in Cognitive Neuroscience",
     "section": "",
-    "text": "Welcome\n\n\n\nAI algorithm hallucinates what this course is about\n\n\nThis text is aimed to serve as your guide for the first half of the course “Methodology in Cognitive Neuroscience: Basic and Applied Research” in the Master’s Program in Cognitive and Behavioral Neuroscience at the University of Granada.\nIn this section, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We’ll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we’ll dive into hands-on training using E-Prime and OpenSesame, two powerful pieces of software for creating psychology experiments.\nBy the end of this module, you will be able to:\n\nUnderstand and apply principles of experimental design in cognitive neuroscience\nThink critically about research methodology and experimental control\nDesign and program your own experiments using E-Prime and OpenSesame\nTroubleshoot common issues in experiment programming\n\nThis guide is designed to be both theoretical and practical. Most of the chapters include conceptual discussions followed by hands-on exercises to help you apply what you’ve learned. Remember, mastering these skills requires practice, creativity, and persistence!\n\n\n\n\n\n\nRelevant links\n\n\n\nCourse guide\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nThis material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-25.\nThe resources listed here are Open Educational Resources (OER) that are free to use, share, copy, and edit, with attribution, following the terms of the specified license.\nPlease contact Carlos González for any inquiry."
+    "text": "Welcome\nThis text is aimed to serve as your guide for the first half of the 2025/26 course Methodology in Cognitive Neuroscience: Basic and Applied Research in the Master’s Program in Cognitive and Behavioral Neuroscience at the University of Granada.\nIn this part of the course, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We’ll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we’ll dive into hands-on training using OpenSesame, a Python-based software for creating psychology experiments.\nBy the end of these weeks of class, you will be able to:\nThis guide is designed to be both theoretical and practical. Most of the chapters include conceptual discussions followed by hands-on exercises to help you apply what you’ve learned. Remember, mastering these skills requires practice, creativity, and persistence!",
+    "crumbs": [
+      "Course information",
+      "Welcome"
+    ]
   },
   {
-    "objectID": "syllabus.html#schedule",
-    "href": "syllabus.html#schedule",
-    "title": "Syllabus",
-    "section": "Schedule",
-    "text": "Schedule\nClasses will take place at Seminario 3 (CIMCYC) on Wednesday from 17:00 to 18:50 and Fridays from 09:00 to 10:50."
+    "objectID": "index.html#course-organization",
+    "href": "index.html#course-organization",
+    "title": "Research methods in Cognitive Neuroscience",
+    "section": "Course Organization",
+    "text": "Course Organization\n\nSchedule and syllabus\nClasses will take place on Tuesdays and Wednesdays, from 09:00 to 10:30 and from 15:00 to 16:30, respectively. All classes will be held in Seminario 3 of the CIMCYC.\nThis part of the course will run from October 7 to October 29, 2025, and we will have an exam on October 31, 2025.\n\n\n\n\nSession\nDay\nHour\nTopic\nMaterials\n\n\n\n\n1\nTue Oct 7\n09:00\nIntroduction: Refresher on experimental design\nChapter 1 (slides)\n\n\n2\nWed Oct 8\n15:00\nIntroduction to Python\nChapter 2 (slides) + Google Colab notebook\n\n\n3\nTue Oct 14\n09:00\nIntroduction to OpenSesame\nOpenSesame basic demo files\n\n\n4\nWed Oct 15\n15:00\nTrial sequences and loops\nStimulus table examples\n\n\n5\nTue Oct 21\n09:00\nBlocks and feedback\nOpenSesame: practice tasks\n\n\n6\nWed Oct 22\n15:00\nConditionals and inline scripts. Counterbalance.\nSample inline scripts + condition tables\n\n\n7\nTue Oct 28\n09:00\nAdvanced options\nOpenSesame advanced templates\n\n\n8\nWed Oct 29\n15:00\nQ&A and course feedback\nSurvey form + recap slides\n\n\n–\nFri Oct 31\n15:00\nExam\nExam info\n\n\n\n\n\nRequired Software\nOpenSesame (download latest version from here).\nIt should run in any more or less recent computer. If you have any issue installing it, please let me know as soon as possible!\n\n\nResources and recommended readings\n\n\n\n\n\n\nNote\n\n\n\nNote: these are just extra readings in case you want to learn more. They are encouraged but not required to follow or pass the course.\n\n\n\nBarbosa, J., Stein, H., Zorowitz, S., Niv, Y., Summerfield, C., Soto-Faraco, S., & Hyafil, A. (2023). A practical guide for studying human behavior in the lab. Behavior Research Methods, 55(1), 58-76.\nFrank, M. C., Braginsky, M., Cachia, J., Coles, N.A., Hardwicke, T.E., Hawkins, R.E., Mathur, M.B., and Williams, R. 2024. Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. https://doi.org/10.7551/mitpress/14810.001.0001.\nMathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source, graphical experiment builder for the social sciences. Behavior Research Methods, 44, 314-324.\nMyers, J. L., Well, A. D., & Lorch Jr, R. F. (2013). Research design and statistical analysis. Routledge.\n\n\n\nEvaluation\nThis course is divided in two parts:\n\nProgramming of experiments (50% of the final grade)\nStatistical analyses (50% of the final grade)\n\n\n\n\n\n\n\nImportant!\n\n\n\nA minimum of 25% in each phase is required to pass the course.\n\n\nIn my part of the course (Part 1), your final grade will depend on:\n\n\n\nActivity\nContribution to final grade\n\n\n\n\nParticipation and in-class assignments\n30%\n\n\nIndividual programming assignments\n30%\n\n\nFinal project\n40%",
+    "crumbs": [
+      "Course information",
+      "Welcome"
+    ]
   },
   {
-    "objectID": "syllabus.html#required-software",
-    "href": "syllabus.html#required-software",
-    "title": "Syllabus",
-    "section": "Required Software",
-    "text": "Required Software\nCheck PRADO for instructions on how to install E-Prime.\nOpenSesame (download latest version from here).\nIt should run in any more or less recent computer. If you have any issue installing it, please let me know as soon as possible!"
-  },
-  {
-    "objectID": "syllabus.html#resources-and-recommended-readings",
-    "href": "syllabus.html#resources-and-recommended-readings",
-    "title": "Syllabus",
-    "section": "Resources and recommended readings",
-    "text": "Resources and recommended readings\n\n\n\n\n\n\nNote\n\n\n\nNote: these are just extra readings in case you want to learn more. They are encouraged but not required to follow or pass the course.\n\n\n\nBarbosa, J., Stein, H., Zorowitz, S., Niv, Y., Summerfield, C., Soto-Faraco, S., & Hyafil, A. (2023). A practical guide for studying human behavior in the lab. Behavior Research Methods, 55(1), 58-76.\nFrank, M. C., Braginsky, M., Cachia, J., Coles, N.A., Hardwicke, T.E., Hawkins, R.E., Mathur, M.B., and Williams, R. 2024. Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. https://doi.org/10.7551/mitpress/14810.001.0001.\nMathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source, graphical experiment builder for the social sciences. Behavior Research Methods, 44, 314-324.\nMyers, J. L., Well, A. D., & Lorch Jr, R. F. (2013). Research design and statistical analysis. Routledge."
-  },
-  {
-    "objectID": "syllabus.html#assessment",
-    "href": "syllabus.html#assessment",
-    "title": "Syllabus",
-    "section": "Assessment",
-    "text": "Assessment\nThis course is divided in two parts:\n\nProgramming of experiments (50% of the final grade)\nStatistical analyses (50% of the final grade)\n\n\n\n\n\n\n\nImportant!\n\n\n\nA minimum of 25% in each phase is required to pass the course.\n\n\nIn my part of the course (Part 1), your final grade will depend on:\n\n\n\nActivity\nContribution to final grade\n\n\n\n\nParticipation and in-class assignments\n30%\n\n\nIndividual programming assignments\n30%\n\n\nFinal project\n40%"
-  },
-  {
-    "objectID": "syllabus.html#course-policies",
-    "href": "syllabus.html#course-policies",
-    "title": "Syllabus",
+    "objectID": "index.html#course-policies",
+    "href": "index.html#course-policies",
+    "title": "Research methods in Cognitive Neuroscience",
     "section": "Course Policies",
-    "text": "Course Policies\n\nAttendance and Participation\nAttendance is strongly encouraged for this course due to its eminently practical nature. Please note:\n\nMany in-class activities and hands-on exercises might not be easily replicated outside of class.\nRegular attendance will significantly enhance your learning experience and ability to complete assignments successfully.\nIf you must miss a class, it is your responsibility to catch up on missed material and assignments.\nConsistent participation in class discussions and activities will positively impact your learning and final grade.\n\n\n\nLate Work and Extensions\n\nAssignments are due on the dates specified in the course schedule.\nLate submissions will incur a 20% penalty\nIf you anticipate difficulty meeting a deadline, please contact me as soon as possible to discuss potential extensions.\nExtensions may be granted for documented emergencies or extenuating circumstances at the instructor’s discretion.\n\n\n\nAcademic Integrity\n\nAll work submitted must be your own.\nWhen using external sources (including generative AI tools), proper citation is required.\nCollaboration on assignments is encouraged, but each student must submit their own original work.\n\n\n\nCommunication\n\nEmail (cgonzalez at ugr dot es) is the primary mode of communication outside of class.\nYou can also use PRADO if you prefer."
+    "text": "Course Policies\n\nAttendance and Participation\nAttendance is strongly encouraged for this course due to its eminently practical nature. Please note:\n\nMany in-class activities and hands-on exercises might not be easily replicated outside of class.\nRegular attendance will significantly enhance your learning experience and ability to complete assignments successfully.\nIf you must miss a class, it is your responsibility to catch up on missed material and assignments.\nConsistent participation in class discussions and activities will positively impact your learning and final grade.\n\n\n\nLate Work and Extensions\n\nAssignments are due on the dates specified in the course schedule.\nLate submissions will incur a 20% penalty\nIf you anticipate difficulty meeting a deadline, please contact me as soon as possible to discuss potential extensions.\nExtensions may be granted for documented emergencies or extenuating circumstances at the instructor’s discretion.\n\n\n\nAcademic Integrity\n\nAll work submitted must be your own.\nWhen using external sources (including generative AI tools), proper citation is required.\nCollaboration on assignments is encouraged, but each student must submit their own original work.",
+    "crumbs": [
+      "Course information",
+      "Welcome"
+    ]
   },
   {
-    "objectID": "syllabus.html#office-hours",
-    "href": "syllabus.html#office-hours",
-    "title": "Syllabus",
-    "section": "Office Hours",
-    "text": "Office Hours\nMondays from 8:30 to 11, but feel free to send me an email anytime or just ask me after class."
+    "objectID": "index.html#communication",
+    "href": "index.html#communication",
+    "title": "Research methods in Cognitive Neuroscience",
+    "section": "Communication",
+    "text": "Communication\n\nEmail (cgonzalez@ugr.es) is the primary mode of communication outside of class.\nYou can also use PRADO if you prefer.\n\n\nOffice Hours\nMondays from 8:30 to 11, but feel free to send me an email anytime or just ask me after class.\n\n\n\n\n\n\nRelevant links\n\n\n\nCourse guide\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nThis material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-26.\nThe resources listed here are Open Educational Resources (OER) that are free to use, share, copy, and edit, with attribution, following the terms of the specified license.\nPlease contact Carlos González for any inquiry.",
+    "crumbs": [
+      "Course information",
+      "Welcome"
+    ]
   },
   {
-    "objectID": "s0.html#from-research-questions-to-data",
-    "href": "s0.html#from-research-questions-to-data",
-    "title": "Session 0: Course kick-off",
-    "section": "From Research Questions to Data",
-    "text": "From Research Questions to Data\nThe essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:\n\nBetween-participants design: Each participant experiences only one level of a factor.\nWithin-participants design: Participants experience multiple levels of a factor, allowing for within-subject comparisons.\nMixed designs: Combining elements of both between- and within-participant designs.\n\nThere are also techniques like counterbalancing to mitigate order effects and ensure reliable, replicable results."
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "Chapter 1: Refresher on experimental design",
+    "section": "",
+    "text": "From Research Questions to Data\nBelow, you can find the slides from this session:\nThe essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:\nThere are also techniques like counterbalancing to mitigate order effects and ensure reliable, replicable results.",
+    "crumbs": [
+      "Weekly content",
+      "Chapter 1: Refresher on experimental design"
+    ]
   },
   {
-    "objectID": "s0.html#tools-for-experimental-design",
-    "href": "s0.html#tools-for-experimental-design",
-    "title": "Session 0: Course kick-off",
+    "objectID": "chapter1.html#from-research-questions-to-data",
+    "href": "chapter1.html#from-research-questions-to-data",
+    "title": "Chapter 1: Refresher on experimental design",
+    "section": "",
+    "text": "Between-participants design: Each participant experiences only one level of a factor.\nWithin-participants design: Participants experience multiple levels of a factor, allowing for within-subject comparisons.\nMixed designs: Combining elements of both between- and within-participant designs.",
+    "crumbs": [
+      "Weekly content",
+      "Chapter 1: Refresher on experimental design"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#tools-for-experimental-design",
+    "href": "chapter1.html#tools-for-experimental-design",
+    "title": "Chapter 1: Refresher on experimental design",
     "section": "Tools for Experimental Design",
-    "text": "Tools for Experimental Design\nDuring the programming phase, you’ll become familiar with two key software tools:\n\nE-Prime\n\nWidely used at CIMCYC\nGreat for users with little coding experience\nOnly available on Windows (License required; check PRADO)\n\n\n\nOpenSesame\n\nPython-based and open source\nCross-platform and free\nRequires basic coding knowledge, but has a large online community\n\nIf you need help accessing these tools or have a non-Windows computer, feel free to reach out!\n\n\n\n\n\n\nRelevant readings\n\n\n\nFor more reading, check out the following resources:\n\nMyers, Well, & Lorch (2013). Research Design and Statistical Analysis\nExperimentology\nBarbosa (2022)\n\n\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\n1. Understanding Experimental Design\n\nWhat are the key differences between between-participants and within-participants designs, and in what scenarios would you prefer one over the other?\nReflect on the importance of counterbalancing in experimental design. How does it help improve the reliability of an experiment?\n\n\n\n2. From Research Questions to Experiment Design\n\nHow would you approach transforming a cognitive neuroscience research question into a concrete experimental procedure? What are the key stages you must consider?\nHow do repeated measures (within-participant designs) affect the interpretation of experimental data compared to between-participant designs?\n\n\n\n3. Programming and Tools\n\nCompare and contrast the strengths and weaknesses of E-Prime and OpenSesame. How might the choice of tool affect the design and execution of your experiment?\nIn programming an experiment, why is it important to understand both the user interface (e.g., E-Prime’s E-Studio) and coding components (e.g., Inline Scripts)?\n\n\n\n4. Ethical Considerations\n\nWhen designing experiments in cognitive neuroscience, what ethical considerations should be taken into account? How can these be incorporated into the design phase?\n\n\n\n\n\nBelow, you can find the slides from this session:"
+    "text": "Tools for Experimental Design\nDuring the programming phase, you’ll become familiar with two key software tools:\n\nE-Prime\n\nWidely used at CIMCYC\nGreat for users with little coding experience\nOnly available on Windows (License required; check PRADO)\n\n\n\nOpenSesame\n\nPython-based and open source\nCross-platform and free\nRequires basic coding knowledge, but has a large online community\n\nIf you need help accessing these tools or have a non-Windows computer, feel free to reach out!\n\n\n\n\n\n\nRelevant readings\n\n\n\nFor more reading, check out the following resources:\n\nMyers, Well, & Lorch (2013). Research Design and Statistical Analysis\nExperimentology\nBarbosa (2022)\n\n\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\n1. Understanding Experimental Design\n\nWhat are the key differences between between-participants and within-participants designs, and in what scenarios would you prefer one over the other?\nReflect on the importance of counterbalancing in experimental design. How does it help improve the reliability of an experiment?\n\n\n\n2. From Research Questions to Experiment Design\n\nHow would you approach transforming a cognitive neuroscience research question into a concrete experimental procedure? What are the key stages you must consider?\nHow do repeated measures (within-participant designs) affect the interpretation of experimental data compared to between-participant designs?\n\n\n\n3. Programming and Tools\n\nCompare and contrast the strengths and weaknesses of E-Prime and OpenSesame. How might the choice of tool affect the design and execution of your experiment?\nIn programming an experiment, why is it important to understand both the user interface (e.g., E-Prime’s E-Studio) and coding components (e.g., Inline Scripts)?\n\n\n\n4. Ethical Considerations\n\nWhen designing experiments in cognitive neuroscience, what ethical considerations should be taken into account? How can these be incorporated into the design phase?",
+    "crumbs": [
+      "Weekly content",
+      "Chapter 1: Refresher on experimental design"
+    ]
+  },
+  {
+    "objectID": "s1.html",
+    "href": "s1.html",
+    "title": "Session 1",
+    "section": "",
+    "text": "Key Stages in Experimental Development\nIn this session, we will focus on the steps involved in developing an experimental psychology experiment, and we will get our hands on E-Prime, using a lexical decision task as an example. Below is an outline of the key stages and concepts we’ll be implementing in E-Prime for this experiment.",
+    "crumbs": [
+      "Weekly content",
+      "Session 1"
+    ]
   },
   {
     "objectID": "s1.html#key-stages-in-experimental-development",
     "href": "s1.html#key-stages-in-experimental-development",
     "title": "Session 1",
-    "section": "Key Stages in Experimental Development",
-    "text": "Key Stages in Experimental Development\n\nConceptualize the Core Experimental (trial) Procedure\nThis is where you define the fundamental, hierarchical structure of the experiment.\nElaborate the Trial Procedure\nDetermine how each trial will flow and what elements will be presented.\nAdd All Conditions and Set the Number of Trials and Sampling Strategy\nDefine the independent variables, number of trials, and how trials are sampled.\nAdd Blocks and Block Conditions\nBreak the trials into blocks and set conditions for each block.\nAdd a Practice Block\nInclude a practice phase where participants can familiarize themselves with the task.\nTesting and Running the Program\nEnsure the experiment runs smoothly and make any necessary adjustments.\nPerform Basic Data Analysis\nTake a first look at the results once the data is collected to make sure everything looks fine."
+    "section": "",
+    "text": "Conceptualize the Core Experimental (trial) Procedure\nThis is where you define the fundamental, hierarchical structure of the experiment.\nElaborate the Trial Procedure\nDetermine how each trial will flow and what elements will be presented.\nAdd All Conditions and Set the Number of Trials and Sampling Strategy\nDefine the independent variables, number of trials, and how trials are sampled.\nAdd Blocks and Block Conditions\nBreak the trials into blocks and set conditions for each block.\nAdd a Practice Block\nInclude a practice phase where participants can familiarize themselves with the task.\nTesting and Running the Program\nEnsure the experiment runs smoothly and make any necessary adjustments.\nPerform Basic Data Analysis\nTake a first look at the results once the data is collected to make sure everything looks fine.",
+    "crumbs": [
+      "Weekly content",
+      "Session 1"
+    ]
   },
   {
     "objectID": "s1.html#developing-a-lexical-decision-task",
     "href": "s1.html#developing-a-lexical-decision-task",
     "title": "Session 1",
     "section": "Developing a Lexical Decision Task",
-    "text": "Developing a Lexical Decision Task\nIn this session, we’ll create a lexical decision task, where participants must determine whether a string of letters is a word or a non-word. The task will consist of several trials, each with the following sequence:\n\nFixation: Displayed for 1000ms\n\nProbe: Displayed for 2000ms\n\nFor each trial, the word will either be a real word (e.g., “cat”) or a non-word (e.g., “jop”). The task will require participants to press a specific key based on whether they think the displayed string is a word or non-word.\n\nFixed vs. Varying Properties\nTo understand how E-Prime works, a key concept to always keep in mind is the distinction between fixed and varying properties in an experiment: - Fixed properties: Elements like the fixation display (e.g., position, color, duration) will remain the same across trials. - Varying properties: The actual words and correct responses will change with each trial.\nIf we define which properties remain constant and which vary across trials when designing each event, it will be easir to understand which information goes into a procedure and what goes into a list."
+    "text": "Developing a Lexical Decision Task\nIn this session, we’ll create a lexical decision task, where participants must determine whether a string of letters is a word or a non-word. The task will consist of several trials, each with the following sequence:\n\nFixation: Displayed for 1000ms\n\nProbe: Displayed for 2000ms\n\nFor each trial, the word will either be a real word (e.g., “cat”) or a non-word (e.g., “jop”). The task will require participants to press a specific key based on whether they think the displayed string is a word or non-word.\n\nFixed vs. Varying Properties\nTo understand how E-Prime works, a key concept to always keep in mind is the distinction between fixed and varying properties in an experiment: - Fixed properties: Elements like the fixation display (e.g., position, color, duration) will remain the same across trials. - Varying properties: The actual words and correct responses will change with each trial.\nIf we define which properties remain constant and which vary across trials when designing each event, it will be easir to understand which information goes into a procedure and what goes into a list.",
+    "crumbs": [
+      "Weekly content",
+      "Session 1"
+    ]
   },
   {
     "objectID": "s1.html#adding-complexity-to-the-experiment",
     "href": "s1.html#adding-complexity-to-the-experiment",
     "title": "Session 1",
     "section": "Adding Complexity to the Experiment",
-    "text": "Adding Complexity to the Experiment\nWe will also explore the following adjustments:\n\nBlocks: The experiment will consist of two blocks, with a break in between.\nCounterbalancing: To avoid response bias, responses can be counterbalanced across participants. For example:\n\nParticipant 1: word = “k”, non-word = “l”\nParticipant 2: word = “l”, non-word = “k”"
+    "text": "Adding Complexity to the Experiment\nWe will also explore the following adjustments:\n\nBlocks: The experiment will consist of two blocks, with a break in between.\nCounterbalancing: To avoid response bias, responses can be counterbalanced across participants. For example:\n\nParticipant 1: word = “k”, non-word = “l”\nParticipant 2: word = “l”, non-word = “k”",
+    "crumbs": [
+      "Weekly content",
+      "Session 1"
+    ]
   },
   {
     "objectID": "s1.html#adding-a-practice-block",
     "href": "s1.html#adding-a-practice-block",
     "title": "Session 1",
     "section": "Adding a Practice Block",
-    "text": "Adding a Practice Block\nBefore the actual experiment, we’ll include a practice block with the following key differences: - Feedback will be provided after each trial to help participants learn the task. - Practice trials will be marked separately to exclude them from the final data analysis.\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\nWhy is it essential to define both fixed and varying properties for an experiment? Provide examples of each in the context of a Stroop task.\n\n\n\n\nBelow, you can find the slides from this session:"
+    "text": "Adding a Practice Block\nBefore the actual experiment, we’ll include a practice block with the following key differences: - Feedback will be provided after each trial to help participants learn the task. - Practice trials will be marked separately to exclude them from the final data analysis.\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\nWhy is it essential to define both fixed and varying properties for an experiment? Provide examples of each in the context of a Stroop task.\n\n\n\n\nBelow, you can find the slides from this session:",
+    "crumbs": [
+      "Weekly content",
+      "Session 1"
+    ]
+  },
+  {
+    "objectID": "s2.html",
+    "href": "s2.html",
+    "title": "Session 2",
+    "section": "",
+    "text": "Developing a Lexical Decision Task\nIn this session, we’ll continue developing our understanding of cognitive experiments, focusing on the lexical decision task and exploring the use of feedback, counterbalancing, and nested lists. Additionally, we’ll introduce the first task submission involving the Flanker Task.",
+    "crumbs": [
+      "Weekly content",
+      "Session 2"
+    ]
   },
   {
     "objectID": "s2.html#developing-a-lexical-decision-task",
     "href": "s2.html#developing-a-lexical-decision-task",
     "title": "Session 2",
-    "section": "Developing a Lexical Decision Task",
-    "text": "Developing a Lexical Decision Task\n\nTrial Structure\nEach trial in the lexical decision task involves the following sequence:\n\nFixation: Displayed for 1000 ms\nProbe: Displayed for 2000 ms\n\nThe key goal is to understand what elements need to be fixed (e.g., fixation cross, display duration) and what should vary (e.g., the word presented, correct response).\n\n\nAdding Blocks\nTo add more complexity, we can divide the trials into blocks, with breaks in between.\n\n\n\n\n\n\nHomework\n\n\n\nHow would you add a practice block to the task?:::\n\n\n\n\nAdding Feedback to Trials\n\nAdd a FeedbackDisplay object as the last event in your trial procedure.\nExplore the feedback’s default options (e.g., states, duration).\nUse the “Input Object Name” to base the feedback on a specific object (e.g., correct response).\n\n\n\n\n\n\n\nHomework\n\n\n\nHow would you add feedback only to the practice block?\n\n\n\n\nAdding All Trials\nThere are different ways to add trials: - If the number of trials is small, you can manually enter the conditions. - For a large number of trials, use nested lists. This involves: - Reducing the trial list to the number of conditions. - Creating a new list for each condition, which contains the trial exemplars.\n\n\n\n\n\n\nTip\n\n\n\nKeep at least two rows per condition to avoid predictable sequences.\n\n\n\n\nCounterbalancing Responses\nTo prevent response bias, you can counterbalance responses across participants. For example: - Participant 1: word = “k”; non-word = “l” - Participant 2: word = “l”; non-word = “k”"
+    "section": "",
+    "text": "Trial Structure\nEach trial in the lexical decision task involves the following sequence:\n\nFixation: Displayed for 1000 ms\nProbe: Displayed for 2000 ms\n\nThe key goal is to understand what elements need to be fixed (e.g., fixation cross, display duration) and what should vary (e.g., the word presented, correct response).\n\n\nAdding Blocks\nTo add more complexity, we can divide the trials into blocks, with breaks in between.\n\n\n\n\n\n\nHomework\n\n\n\nHow would you add a practice block to the task?:::\n\n\n\n\nAdding Feedback to Trials\n\nAdd a FeedbackDisplay object as the last event in your trial procedure.\nExplore the feedback’s default options (e.g., states, duration).\nUse the “Input Object Name” to base the feedback on a specific object (e.g., correct response).\n\n\n\n\n\n\n\nHomework\n\n\n\nHow would you add feedback only to the practice block?\n\n\n\n\nAdding All Trials\nThere are different ways to add trials: - If the number of trials is small, you can manually enter the conditions. - For a large number of trials, use nested lists. This involves: - Reducing the trial list to the number of conditions. - Creating a new list for each condition, which contains the trial exemplars.\n\n\n\n\n\n\nTip\n\n\n\nKeep at least two rows per condition to avoid predictable sequences.\n\n\n\n\nCounterbalancing Responses\nTo prevent response bias, you can counterbalance responses across participants. For example: - Participant 1: word = “k”; non-word = “l” - Participant 2: word = “l”; non-word = “k”",
+    "crumbs": [
+      "Weekly content",
+      "Session 2"
+    ]
   },
   {
     "objectID": "s2.html#first-task-submission-the-flanker-task",
     "href": "s2.html#first-task-submission-the-flanker-task",
     "title": "Session 2",
     "section": "First Task Submission: The Flanker Task",
-    "text": "First Task Submission: The Flanker Task\nDeadline: October 20th\nIn this task, you will explore the effect of congruence on response inhibition using the Flanker Task, which assesses the ability to suppress inappropriate responses.\n\nKey Elements of the Flanker Task\n\nCongruent Trials: Where flankers and the target match (e.g., HHHHH).\nIncongruent Trials: Where the flankers and the target do not match (e.g., SSHSS).\n\n\nSequence of Events per Trial\n\nFixation (150 ms)\nProbe (80 ms)\nResponse Window (800 ms)\nFeedback (300 ms)\n\n\n\n\nTask Design\nThe experiment will follow a 2 (between-participants) x 2 (within-participants) design: - Between-participants factor: Proportion of congruence (50% vs 80% incongruent trials). - Within-participants factor: Congruence (congruent vs incongruent trials).\nEach participant will complete 80 trials in total, equally distributed across the conditions.\n\n\nProbe List\nYou must use nested lists for random probe selection, ensuring that all probes are used the same number of times across trials.\n\n\n\nCongruent\nIncongruent\n\n\n\n\nAAAAA\nAABAA\n\n\nBBBBB\nBBABB\n\n\nXXXXX\nXXYXX\n\n\nYYYYY\nYYXYY\n\n\n\n\n\nExtra Points\n\nCounterbalance the proportion of congruence between participants (e.g., group 1 = 50%, group 2 = 80%).\nRun three “participants”, merge their data, and compute the mean reaction time (RT) and accuracy (ACC) for each condition.\n\nPlease upload your completed task to PRADO or send it via email. Late submissions will incur a 20% penalty.\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\nConsider the following questionsn:\n\nTrial Structure and Experimental Design\n\nWhat are the advantages of using nested lists when designing experiments with a large number of trials or conditions? How does this affect the flexibility and scalability of your experimental design?\nWhy is it important to balance the number of trials across conditions, and what issues could arise if this balance is not maintained?\n\n\n\nFeedback in Cognitive Tasks\n\nHow does adding feedback in a cognitive task, particularly in a practice block, help participants perform better in the actual trials? What are the potential downsides of providing feedback in all blocks?\nReflect on the role of feedback in learning and task performance. Should feedback always be included in experiments, or are there scenarios where it might interfere with data collection?\n\n\n\nCounterbalancing and Bias\n\nWhy is counterbalancing critical in cognitive tasks, such as the lexical decision task or the Flanker task? What would be the consequences of failing to counterbalance responses across participants?\nHow does counterbalancing responses improve the internal validity of an experiment? Can counterbalancing introduce any unintended complexities in data analysis?\n\n\n\nThe Flanker Task\n\nIn the context of the Flanker task, how does the proportion of congruent versus incongruent trials affect response inhibition? Why might a higher proportion of incongruent trials make it easier for participants to control inappropriate responses?\nReflect on how varying the proportion of congruent and incongruent trials could affect the interpretation of reaction time (RT) and accuracy (ACC) results. How might these effects differ across participants with varying cognitive control abilities?\n\n\n\nExperimental Controls and Variability\n\nWhat are some potential challenges in designing experiments with both within-participants and between-participants factors, as seen in the Flanker task? How can you minimize participant variability while maintaining the experimental design’s integrity?\nWhy is it important to control for the sequence and timing of stimuli presentation, and how do randomization and counterbalancing help address these issues?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
+    "text": "First Task Submission: The Flanker Task\nDeadline: October 20th\nIn this task, you will explore the effect of congruence on response inhibition using the Flanker Task, which assesses the ability to suppress inappropriate responses.\n\nKey Elements of the Flanker Task\n\nCongruent Trials: Where flankers and the target match (e.g., HHHHH).\nIncongruent Trials: Where the flankers and the target do not match (e.g., SSHSS).\n\n\nSequence of Events per Trial\n\nFixation (150 ms)\nProbe (80 ms)\nResponse Window (800 ms)\nFeedback (300 ms)\n\n\n\n\nTask Design\nThe experiment will follow a 2 (between-participants) x 2 (within-participants) design: - Between-participants factor: Proportion of congruence (50% vs 80% incongruent trials). - Within-participants factor: Congruence (congruent vs incongruent trials).\nEach participant will complete 80 trials in total, equally distributed across the conditions.\n\n\nProbe List\nYou must use nested lists for random probe selection, ensuring that all probes are used the same number of times across trials.\n\n\n\nCongruent\nIncongruent\n\n\n\n\nAAAAA\nAABAA\n\n\nBBBBB\nBBABB\n\n\nXXXXX\nXXYXX\n\n\nYYYYY\nYYXYY\n\n\n\n\n\nExtra Points\n\nCounterbalance the proportion of congruence between participants (e.g., group 1 = 50%, group 2 = 80%).\nRun three “participants”, merge their data, and compute the mean reaction time (RT) and accuracy (ACC) for each condition.\n\nPlease upload your completed task to PRADO or send it via email. Late submissions will incur a 20% penalty.\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\nConsider the following questionsn:\n\nTrial Structure and Experimental Design\n\nWhat are the advantages of using nested lists when designing experiments with a large number of trials or conditions? How does this affect the flexibility and scalability of your experimental design?\nWhy is it important to balance the number of trials across conditions, and what issues could arise if this balance is not maintained?\n\n\n\nFeedback in Cognitive Tasks\n\nHow does adding feedback in a cognitive task, particularly in a practice block, help participants perform better in the actual trials? What are the potential downsides of providing feedback in all blocks?\nReflect on the role of feedback in learning and task performance. Should feedback always be included in experiments, or are there scenarios where it might interfere with data collection?\n\n\n\nCounterbalancing and Bias\n\nWhy is counterbalancing critical in cognitive tasks, such as the lexical decision task or the Flanker task? What would be the consequences of failing to counterbalance responses across participants?\nHow does counterbalancing responses improve the internal validity of an experiment? Can counterbalancing introduce any unintended complexities in data analysis?\n\n\n\nThe Flanker Task\n\nIn the context of the Flanker task, how does the proportion of congruent versus incongruent trials affect response inhibition? Why might a higher proportion of incongruent trials make it easier for participants to control inappropriate responses?\nReflect on how varying the proportion of congruent and incongruent trials could affect the interpretation of reaction time (RT) and accuracy (ACC) results. How might these effects differ across participants with varying cognitive control abilities?\n\n\n\nExperimental Controls and Variability\n\nWhat are some potential challenges in designing experiments with both within-participants and between-participants factors, as seen in the Flanker task? How can you minimize participant variability while maintaining the experimental design’s integrity?\nWhy is it important to control for the sequence and timing of stimuli presentation, and how do randomization and counterbalancing help address these issues?\n\n\n\n\n\n\nBelow, you can find the slides from this session:",
+    "crumbs": [
+      "Weekly content",
+      "Session 2"
+    ]
+  },
+  {
+    "objectID": "s3.html",
+    "href": "s3.html",
+    "title": "Session 3",
+    "section": "",
+    "text": "Key Programming Notions in E-Basic\nIn this session, we delve deeper into E-Basic, the programming language used in E-Prime. We’ll cover key programming notions such as variables, conditionals, and the use of objects in experiments.",
+    "crumbs": [
+      "Weekly content",
+      "Session 3"
+    ]
   },
   {
     "objectID": "s3.html#key-programming-notions-in-e-basic",
     "href": "s3.html#key-programming-notions-in-e-basic",
     "title": "Session 3",
-    "section": "Key Programming Notions in E-Basic",
-    "text": "Key Programming Notions in E-Basic\n\nVariables\n\nVariables store and manipulate data. You can name them whatever you like and store different types of information:\n\nInteger (numeric values)\nStrings (text)\nBoolean (true or false)\n\nIn E-Prime, variables can be defined in the “User Script” tab (global scope) or within InLine objects (local scope).\n\nExample:\nDim trialCounter As Integer\ntrialCounter = 0\nfixation.Text = \"+\"\n\n\nObjects in E-Basic\n\nObjects have properties that can be updated.\nExample: Object.Text = 'Welcome', Object.ForeColor = Color.Red\nObjects also have methods that perform actions or provide values.\nExample: Object.Run, Object.Mean\n\n\n\nUsing Attributes and Debugging\n\nYou can update the attributes of a list using InLines.\nExample: c.SetAttrib \"StimText\", \"Hi World!\"\nDebugging prompts help verify if the experiment is running correctly.\nExample: Debug.Print \"the experiment is working\""
+    "section": "",
+    "text": "Variables\n\nVariables store and manipulate data. You can name them whatever you like and store different types of information:\n\nInteger (numeric values)\nStrings (text)\nBoolean (true or false)\n\nIn E-Prime, variables can be defined in the “User Script” tab (global scope) or within InLine objects (local scope).\n\nExample:\nDim trialCounter As Integer\ntrialCounter = 0\nfixation.Text = \"+\"\n\n\nObjects in E-Basic\n\nObjects have properties that can be updated.\nExample: Object.Text = 'Welcome', Object.ForeColor = Color.Red\nObjects also have methods that perform actions or provide values.\nExample: Object.Run, Object.Mean\n\n\n\nUsing Attributes and Debugging\n\nYou can update the attributes of a list using InLines.\nExample: c.SetAttrib \"StimText\", \"Hi World!\"\nDebugging prompts help verify if the experiment is running correctly.\nExample: Debug.Print \"the experiment is working\"",
+    "crumbs": [
+      "Weekly content",
+      "Session 3"
+    ]
   },
   {
     "objectID": "s3.html#conditionals-in-e-basic",
     "href": "s3.html#conditionals-in-e-basic",
     "title": "Session 3",
     "section": "Conditionals in E-Basic",
-    "text": "Conditionals in E-Basic\nConditionals allow specific actions based on whether a condition is met.\nIf logic Then\n  action\nEnd If\nIf target.RT > 1000 Then\n  Feedback.Text = \"too slow!\"\nEnd If\n\n\n\n\n\n\nExcercise\n\n\n\nCreate an InLine with a conditional:\n\nIf RT to the target is faster than 1000 ms, display “you’re doing great”.\nIf RT is slower than 1000 ms, display “please, try to answer faster”.\n\n\n\n\n\n\n\n\n\nWant to see the solution?\n\n\n\n\n\nIf target.RT < 1000 Then\n  Feedback.Text = \"great!\"\nElse\n  Feedback.Text = \"faster\"\nEnd If"
+    "text": "Conditionals in E-Basic\nConditionals allow specific actions based on whether a condition is met.\nIf logic Then\n  action\nEnd If\nIf target.RT &gt; 1000 Then\n  Feedback.Text = \"too slow!\"\nEnd If\n\n\n\n\n\n\nExcercise\n\n\n\nCreate an InLine with a conditional:\n\nIf RT to the target is faster than 1000 ms, display “you’re doing great”.\nIf RT is slower than 1000 ms, display “please, try to answer faster”.\n\n\n\n\n\n\n\n\n\nWant to see the solution?\n\n\n\n\n\nIf target.RT &lt; 1000 Then\n  Feedback.Text = \"great!\"\nElse\n  Feedback.Text = \"faster\"\nEnd If",
+    "crumbs": [
+      "Weekly content",
+      "Session 3"
+    ]
   },
   {
     "objectID": "s3.html#goto-label",
     "href": "s3.html#goto-label",
     "title": "Session 3",
     "section": "GoTo Label",
-    "text": "GoTo Label\nLabels mark specific points in the experiment, and GoTo allows you to jump to these flags. This is useful for:\n\nSkipping parts of the experiment (e.g., skipping feedback in the non-practice phase).\nRepeating parts of the experiment (e.g., repeating the practice phase if criteria are not met).\n\n\n\n\n\n\n\nExcercise\n\n\n\nAdd a TextDisplay after a block with the prompt: “If you want to repeat the block, press ‘y’”. Use Label and InLine objects to repeat the block if ‘y’ is pressed.\n\n\n\n\n\n\n\n\nWant to see the solution?\n\n\n\n\n\nIf Repeat.RESP = \"y\" Then\n  GoTo PracticeLabel\nEnd If"
+    "text": "GoTo Label\nLabels mark specific points in the experiment, and GoTo allows you to jump to these flags. This is useful for:\n\nSkipping parts of the experiment (e.g., skipping feedback in the non-practice phase).\nRepeating parts of the experiment (e.g., repeating the practice phase if criteria are not met).\n\n\n\n\n\n\n\nExcercise\n\n\n\nAdd a TextDisplay after a block with the prompt: “If you want to repeat the block, press ‘y’”. Use Label and InLine objects to repeat the block if ‘y’ is pressed.\n\n\n\n\n\n\n\n\nWant to see the solution?\n\n\n\n\n\nIf Repeat.RESP = \"y\" Then\n  GoTo PracticeLabel\nEnd If",
+    "crumbs": [
+      "Weekly content",
+      "Session 3"
+    ]
   },
   {
     "objectID": "s3.html#summation-object",
     "href": "s3.html#summation-object",
     "title": "Session 3",
     "section": "Summation Object",
-    "text": "Summation Object\nThe Summation object computes average accuracy after a specified number of trials or blocks.\nSteps:\n\nDeclare a Summation object in the User tab\n\nDim PracticeAcc As Summation\n\nInitialize the object at the beginning of the experiment.\n\nSet PracticeAcc = New Summation\n\nAdd an observation after each trial.\n\nPracticeAcc.AddObservation Stimulus.ACC\n\n\n\n\n\n\nExcercise\n\n\n\nCreate a summation to compute accuracy after the fifth trial and end practice if accuracy exceeds 80%.\n\n\n\n\n\n\n\n\nWant to see the solution?\n\n\n\n\n\nDim PracticeAcc As Summation\nDim TrialCounter As Integer\n\nSet PracticeAcc = New Summation\nTrialCounter = 0\n\nTrialCount = TrialCount + 1\nPracticeAcc.AddObservation Stimulus.ACC\n\nIf TrialCount > 5 And PracticeAcc.Mean > .80 Then\n  TrialList.Terminate\nEnd If\n\n\n\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nVariables and Objects in E-Basic\n\nWhy is it important to understand the difference between global and local scope when defining variables in E-Basic? Can you think of situations where one would be more advantageous than the other?\nHow can modifying the properties and methods of objects, such as Object.Text and Object.Run, impact the flow and presentation of your experiment? Provide an example.\n\n\n\nConditionals in E-Basic\n\nWhat is the role of conditionals in controlling the logic of your experiment? How does using conditionals like If...Then...Else help you manage different responses in a trial?\nConsider a scenario where reaction time is crucial. How would you use conditionals to provide real-time feedback to participants based on their performance?\n\n\n\nUsing GoTo Labels in Experimental Design\n\nIn what situations would using GoTo labels improve the structure of your experiment? What are the potential risks of using GoTo commands improperly in a larger experimental setup?\nHow could the GoTo command be used to allow participants to repeat specific blocks of trials without restarting the entire experiment?\n\n\n\nSummation Object and Accuracy Tracking\n\nHow does the Summation object help monitor participant performance across trials? What are the benefits of using this object to track accuracy?\nIf a participant is consistently below the 80% accuracy threshold, what steps could you take to adapt the experiment and improve their performance? Reflect on how accuracy thresholds can be implemented using the Summation object.\n\n\n\nDebugging and Code Testing\n\nHow does the use of Debug.Print assist in testing and troubleshooting your experiment? Why is it useful to check the state of variables like TrialCounter while running the program?\nReflect on the importance of continuous debugging during the development of a complex experiment. What strategies can you use to ensure that errors are caught and corrected early?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
+    "text": "Summation Object\nThe Summation object computes average accuracy after a specified number of trials or blocks.\nSteps:\n\nDeclare a Summation object in the User tab\n\nDim PracticeAcc As Summation\n\nInitialize the object at the beginning of the experiment.\n\nSet PracticeAcc = New Summation\n\nAdd an observation after each trial.\n\nPracticeAcc.AddObservation Stimulus.ACC\n\n\n\n\n\n\nExcercise\n\n\n\nCreate a summation to compute accuracy after the fifth trial and end practice if accuracy exceeds 80%.\n\n\n\n\n\n\n\n\nWant to see the solution?\n\n\n\n\n\nDim PracticeAcc As Summation\nDim TrialCounter As Integer\n\nSet PracticeAcc = New Summation\nTrialCounter = 0\n\nTrialCount = TrialCount + 1\nPracticeAcc.AddObservation Stimulus.ACC\n\nIf TrialCount &gt; 5 And PracticeAcc.Mean &gt; .80 Then\n  TrialList.Terminate\nEnd If\n\n\n\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nVariables and Objects in E-Basic\n\nWhy is it important to understand the difference between global and local scope when defining variables in E-Basic? Can you think of situations where one would be more advantageous than the other?\nHow can modifying the properties and methods of objects, such as Object.Text and Object.Run, impact the flow and presentation of your experiment? Provide an example.\n\n\n\nConditionals in E-Basic\n\nWhat is the role of conditionals in controlling the logic of your experiment? How does using conditionals like If...Then...Else help you manage different responses in a trial?\nConsider a scenario where reaction time is crucial. How would you use conditionals to provide real-time feedback to participants based on their performance?\n\n\n\nUsing GoTo Labels in Experimental Design\n\nIn what situations would using GoTo labels improve the structure of your experiment? What are the potential risks of using GoTo commands improperly in a larger experimental setup?\nHow could the GoTo command be used to allow participants to repeat specific blocks of trials without restarting the entire experiment?\n\n\n\nSummation Object and Accuracy Tracking\n\nHow does the Summation object help monitor participant performance across trials? What are the benefits of using this object to track accuracy?\nIf a participant is consistently below the 80% accuracy threshold, what steps could you take to adapt the experiment and improve their performance? Reflect on how accuracy thresholds can be implemented using the Summation object.\n\n\n\nDebugging and Code Testing\n\nHow does the use of Debug.Print assist in testing and troubleshooting your experiment? Why is it useful to check the state of variables like TrialCounter while running the program?\nReflect on the importance of continuous debugging during the development of a complex experiment. What strategies can you use to ensure that errors are caught and corrected early?\n\n\n\n\n\n\nBelow, you can find the slides from this session:",
+    "crumbs": [
+      "Weekly content",
+      "Session 3"
+    ]
+  },
+  {
+    "objectID": "s4.html",
+    "href": "s4.html",
+    "title": "Session 4",
+    "section": "",
+    "text": "Experiment Lifecycle in E-Prime\nIn this session, we will focus on the full experiment lifecycle in E-Prime, from creation to data analysis. Additionally, we will explore the effect of word valence on stimulus discrimination and dive deeper into conditionals in E-Basic.",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#experiment-lifecycle-in-e-prime",
     "href": "s4.html#experiment-lifecycle-in-e-prime",
     "title": "Session 4",
-    "section": "Experiment Lifecycle in E-Prime",
-    "text": "Experiment Lifecycle in E-Prime\n\nSteps Involved\n\nCreate the Experiment\nUse E-Studio to design the experiment interface and logic.\nRun the Experiment\nExecute the experiment through E-Run and ensure everything works as planned.\nChange File Format\nUtilize E-DataAid to convert the output into a readable format for analysis.\nMerge Files\nUse E-Merge to combine the data from different participants.\nAnalyze and Export Data\nFinally, run the analysis and export the data for further use.\n\n\n\nKey Tools\n\nE-Studio: Graphical interface to design experiments.\nE-Run: Runs experiments.\nE-Recovery: Recovers partial data if the experiment crashes.\nE-Merge: Merges data from multiple participants.\nE-DataAid: Analyzes and exports experiment data."
+    "section": "",
+    "text": "Steps Involved\n\nCreate the Experiment\nUse E-Studio to design the experiment interface and logic.\nRun the Experiment\nExecute the experiment through E-Run and ensure everything works as planned.\nChange File Format\nUtilize E-DataAid to convert the output into a readable format for analysis.\nMerge Files\nUse E-Merge to combine the data from different participants.\nAnalyze and Export Data\nFinally, run the analysis and export the data for further use.\n\n\n\nKey Tools\n\nE-Studio: Graphical interface to design experiments.\nE-Run: Runs experiments.\nE-Recovery: Recovers partial data if the experiment crashes.\nE-Merge: Merges data from multiple participants.\nE-DataAid: Analyzes and exports experiment data.",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#example-word-valence-and-stimulus-discrimination",
     "href": "s4.html#example-word-valence-and-stimulus-discrimination",
     "title": "Session 4",
     "section": "Example: Word Valence and Stimulus Discrimination",
-    "text": "Example: Word Valence and Stimulus Discrimination\nIn the experiment, participants must quickly determine the shape displayed after a word. The structure of each trial is as follows:\n\nFixation (1000 ms)\nWord (500 ms)\nShape Display (100 ms)\nResponse Window (up to 2000 ms)"
+    "text": "Example: Word Valence and Stimulus Discrimination\nIn the experiment, participants must quickly determine the shape displayed after a word. The structure of each trial is as follows:\n\nFixation (1000 ms)\nWord (500 ms)\nShape Display (100 ms)\nResponse Window (up to 2000 ms)",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#conditionals-in-e-basic",
     "href": "s4.html#conditionals-in-e-basic",
     "title": "Session 4",
     "section": "Conditionals in E-Basic",
-    "text": "Conditionals in E-Basic\n\nBasic Structure\nConditionals are logic statements that allow specific actions if certain conditions are met.\nExample:\nIf target.RT > 1000 Then\n  Feedback.Text = \"too slow!\"\nEnd If\nConditionals can be used to tailor the feedback or response during the experiment based on participant performance."
+    "text": "Conditionals in E-Basic\n\nBasic Structure\nConditionals are logic statements that allow specific actions if certain conditions are met.\nExample:\nIf target.RT &gt; 1000 Then\n  Feedback.Text = \"too slow!\"\nEnd If\nConditionals can be used to tailor the feedback or response during the experiment based on participant performance.",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#prerelease",
     "href": "s4.html#prerelease",
     "title": "Session 4",
     "section": "PreRelease",
-    "text": "PreRelease\nPreRelease allows the current stimulus to release execution time to the next stimulus. By setting PreRelease to 0, you ensure that the previous object finishes its execution before the next one begins."
+    "text": "PreRelease\nPreRelease allows the current stimulus to release execution time to the next stimulus. By setting PreRelease to 0, you ensure that the previous object finishes its execution before the next one begins.",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#exercise-create-a-conditional-with-feedback",
     "href": "s4.html#exercise-create-a-conditional-with-feedback",
     "title": "Session 4",
     "section": "Exercise: Create a Conditional with Feedback",
-    "text": "Exercise: Create a Conditional with Feedback\nTry creating an InLine object that:\n\nDisplays “you’re doing great” if the reaction time is less than 1000 ms.\nDisplays “please, try to answer faster” if the reaction time is more than 1000 ms.\n\nExample:\nIf target.RT < 1000 Then\n  Feedback.Text = \"great!\"\nElse\n  Feedback.Text = \"faster\"\nEnd If\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nExperiment Lifecycle in E-Prime\n\nHow does understanding the workflow in E-Prime, from E-Studio to E-Run and E-DataAid, help in managing the overall experiment? What challenges could arise during these transitions?\nWhy is it important to use E-Recovery and E-Merge tools during an experiment, and how do they contribute to data integrity?\n\n\n\nConditionals in E-Basic\n\nHow can conditionals in E-Basic be used to adapt the experiment based on participant responses? Provide an example of how conditionals might be useful in real-time feedback.\nWhy is it important to set the PreRelease property to 0 when using InLine objects after an event? What might happen if this is not done correctly?\n\n\n\n4. Debugging and Testing\n\nWhat strategies would you use to ensure that conditionals and trial logic are functioning as expected during an experiment? How does debugging assist in catching issues early on?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
+    "text": "Exercise: Create a Conditional with Feedback\nTry creating an InLine object that:\n\nDisplays “you’re doing great” if the reaction time is less than 1000 ms.\nDisplays “please, try to answer faster” if the reaction time is more than 1000 ms.\n\nExample:\nIf target.RT &lt; 1000 Then\n  Feedback.Text = \"great!\"\nElse\n  Feedback.Text = \"faster\"\nEnd If\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nExperiment Lifecycle in E-Prime\n\nHow does understanding the workflow in E-Prime, from E-Studio to E-Run and E-DataAid, help in managing the overall experiment? What challenges could arise during these transitions?\nWhy is it important to use E-Recovery and E-Merge tools during an experiment, and how do they contribute to data integrity?\n\n\n\nConditionals in E-Basic\n\nHow can conditionals in E-Basic be used to adapt the experiment based on participant responses? Provide an example of how conditionals might be useful in real-time feedback.\nWhy is it important to set the PreRelease property to 0 when using InLine objects after an event? What might happen if this is not done correctly?\n\n\n\n4. Debugging and Testing\n\nWhat strategies would you use to ensure that conditionals and trial logic are functioning as expected during an experiment? How does debugging assist in catching issues early on?\n\n\n\n\n\n\nBelow, you can find the slides from this session:",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#experiment-lifecycle-in-e-prime-1",
     "href": "s4.html#experiment-lifecycle-in-e-prime-1",
     "title": "Session 4",
     "section": "Experiment Lifecycle in E-Prime",
-    "text": "Experiment Lifecycle in E-Prime\n\nHow does understanding the workflow in E-Prime, from E-Studio to E-Run and E-DataAid, help in managing the overall experiment? What challenges could arise during these transitions?\nWhy is it important to use E-Recovery and E-Merge tools during an experiment, and how do they contribute to data integrity?"
+    "text": "Experiment Lifecycle in E-Prime\n\nHow does understanding the workflow in E-Prime, from E-Studio to E-Run and E-DataAid, help in managing the overall experiment? What challenges could arise during these transitions?\nWhy is it important to use E-Recovery and E-Merge tools during an experiment, and how do they contribute to data integrity?",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#conditionals-in-e-basic-1",
     "href": "s4.html#conditionals-in-e-basic-1",
     "title": "Session 4",
     "section": "Conditionals in E-Basic",
-    "text": "Conditionals in E-Basic\n\nHow can conditionals in E-Basic be used to adapt the experiment based on participant responses? Provide an example of how conditionals might be useful in real-time feedback.\nWhy is it important to set the PreRelease property to 0 when using InLine objects after an event? What might happen if this is not done correctly?"
+    "text": "Conditionals in E-Basic\n\nHow can conditionals in E-Basic be used to adapt the experiment based on participant responses? Provide an example of how conditionals might be useful in real-time feedback.\nWhy is it important to set the PreRelease property to 0 when using InLine objects after an event? What might happen if this is not done correctly?",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
   },
   {
     "objectID": "s4.html#debugging-and-testing",
     "href": "s4.html#debugging-and-testing",
     "title": "Session 4",
     "section": "4. Debugging and Testing",
-    "text": "4. Debugging and Testing\n\nWhat strategies would you use to ensure that conditionals and trial logic are functioning as expected during an experiment? How does debugging assist in catching issues early on?"
+    "text": "4. Debugging and Testing\n\nWhat strategies would you use to ensure that conditionals and trial logic are functioning as expected during an experiment? How does debugging assist in catching issues early on?",
+    "crumbs": [
+      "Weekly content",
+      "Session 4"
+    ]
+  },
+  {
+    "objectID": "s5.html",
+    "href": "s5.html",
+    "title": "Sessions 5-6",
+    "section": "",
+    "text": "OpenSesame Overview\nIn this session, we will explore OpenSesame as an alternative to E-Prime, covering the structure of OpenSesame, a comparison between both tools, and how to create tasks like the Stroop and lexical decision tasks.",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#opensesame-overview",
     "href": "s5.html#opensesame-overview",
     "title": "Sessions 5-6",
-    "section": "OpenSesame Overview",
-    "text": "OpenSesame Overview\n\nKey Features\n\nOpenSesame is an open-source, Python-based tool for designing experiments.\nIt is free, cross-platform, and has a large online community.\nE-Prime, in contrast, is a paid software that works only on Windows but has more support at CIMCYC."
+    "section": "",
+    "text": "Key Features\n\nOpenSesame is an open-source, Python-based tool for designing experiments.\nIt is free, cross-platform, and has a large online community.\nE-Prime, in contrast, is a paid software that works only on Windows but has more support at CIMCYC.",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#opensesame-structure",
     "href": "s5.html#opensesame-structure",
     "title": "Sessions 5-6",
     "section": "OpenSesame Structure",
-    "text": "OpenSesame Structure\nWhile OpenSesame is different from E-Prime, there are some parallels in structure:\n\n\n\nOpenSesame\nE-Prime\n\n\n\n\nlist\nloop\n\n\nprocedure\nsequence\n\n\nslide\nsketchpad\n\n\n\nSome other elements are more specific to OpenSesame, such as the logger and keyboard_response."
+    "text": "OpenSesame Structure\nWhile OpenSesame is different from E-Prime, there are some parallels in structure:\n\n\n\nOpenSesame\nE-Prime\n\n\n\n\nlist\nloop\n\n\nprocedure\nsequence\n\n\nslide\nsketchpad\n\n\n\nSome other elements are more specific to OpenSesame, such as the logger and keyboard_response.",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#task-examples",
     "href": "s5.html#task-examples",
     "title": "Sessions 5-6",
     "section": "Task Examples",
-    "text": "Task Examples\n\nStroop Task in OpenSesame\nObjective: Name the color of the ink, not the word.\n\nCongruent Example: green.\nIncongruent Example:green.\nTiming:\n\nFixation: 1000 ms\nStimulus: 2000 ms (or until response)\n\n\n\n\nLexical Decision Task in OpenSesame\nIn this task, participants must decide whether a displayed string is a real word or a non-word.\nTrial Structure: - Fixation: 1000 ms - Probe: 2000 ms\nYou will define which elements are fixed (e.g., fixation cross) and which vary (e.g., words).\nFixed Properties: - Text always “+” - Foreground and background color\nVarying Properties: - Word: real or non-word - Response keys"
+    "text": "Task Examples\n\nStroop Task in OpenSesame\nObjective: Name the color of the ink, not the word.\n\nCongruent Example: green.\nIncongruent Example:green.\nTiming:\n\nFixation: 1000 ms\nStimulus: 2000 ms (or until response)\n\n\n\n\nLexical Decision Task in OpenSesame\nIn this task, participants must decide whether a displayed string is a real word or a non-word.\nTrial Structure: - Fixation: 1000 ms - Probe: 2000 ms\nYou will define which elements are fixed (e.g., fixation cross) and which vary (e.g., words).\nFixed Properties: - Text always “+” - Foreground and background color\nVarying Properties: - Word: real or non-word - Response keys",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#conditionals-in-python",
     "href": "s5.html#conditionals-in-python",
     "title": "Sessions 5-6",
     "section": "Conditionals in Python",
-    "text": "Conditionals in Python\n\nStructure\nConditionals allow specific actions depending on whether certain conditions are met.\nBasic Example:\nif [correct] == 1:\n  print('well done')\nif [correct] == 1 and [response_time] < 1000:\n  print('well done')\nelif [correct] == 0:\n  print('try again')\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nComparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow.\n\n\n\nOpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?\n\n\n\nConditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?\n\n\n\nDebugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?\n\n\n\n\n\n\nBelow, you can find the slides from this session:"
+    "text": "Conditionals in Python\n\nStructure\nConditionals allow specific actions depending on whether certain conditions are met.\nBasic Example:\nif [correct] == 1:\n  print('well done')\nif [correct] == 1 and [response_time] &lt; 1000:\n  print('well done')\nelif [correct] == 0:\n  print('try again')\n\n\n\n\n\n\n\nFood for thought\n\n\n\n\n\n\nComparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow.\n\n\n\nOpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?\n\n\n\nConditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?\n\n\n\nDebugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?\n\n\n\n\n\n\nBelow, you can find the slides from this session:",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#comparing-e-prime-and-opensesame",
     "href": "s5.html#comparing-e-prime-and-opensesame",
     "title": "Sessions 5-6",
     "section": "Comparing E-Prime and OpenSesame",
-    "text": "Comparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow."
+    "text": "Comparing E-Prime and OpenSesame\n\nIn what scenarios would you choose OpenSesame over E-Prime for designing an experiment? How does the open-source nature of OpenSesame influence its usability and flexibility compared to E-Prime?\nWhat are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs. graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow.",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#opensesame-task-design",
     "href": "s5.html#opensesame-task-design",
     "title": "Sessions 5-6",
     "section": "OpenSesame Task Design",
-    "text": "OpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?"
+    "text": "OpenSesame Task Design\n\nWhen designing the Stroop task in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?\nIn the lexical decision task (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#conditionals-in-python-1",
     "href": "s5.html#conditionals-in-python-1",
     "title": "Sessions 5-6",
     "section": "Conditionals in Python",
-    "text": "Conditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?"
+    "text": "Conditionals in Python\n\nHow does using conditionals in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).\nCompare the use of conditionals in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
   },
   {
     "objectID": "s5.html#debugging-and-error-handling-in-opensesame",
     "href": "s5.html#debugging-and-error-handling-in-opensesame",
     "title": "Sessions 5-6",
     "section": "Debugging and Error Handling in OpenSesame",
-    "text": "Debugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?"
+    "text": "Debugging and Error Handling in OpenSesame\n\nWhy is the debug console in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like subject_parity and ensure your conditionals are working as expected?\nWhat challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?",
+    "crumbs": [
+      "Weekly content",
+      "Sessions 5-6"
+    ]
+  },
+  {
+    "objectID": "s7.html",
+    "href": "s7.html",
+    "title": "Reflections and Feedback",
+    "section": "",
+    "text": "Key Learning Points from Feedback\nThis session provides an overview of student feedback on the Methods in Cognitive Neuroscience course. We also explore suggestions for improvements in teaching and course structure.\nStudents noted strengths and areas for improvement, which are summarized below:\nPositive:\nChallenges:",
+    "crumbs": [
+      "Weekly content",
+      "Reflections and Feedback"
+    ]
   },
   {
     "objectID": "s7.html#student-suggestions-for-course-improvement",
     "href": "s7.html#student-suggestions-for-course-improvement",
     "title": "Reflections and Feedback",
     "section": "Student Suggestions for Course Improvement",
-    "text": "Student Suggestions for Course Improvement\nBased on collected feedback, here are suggestions for enhancing the learning experience:\n\nFocusing on a Single Software:\n\nMany students suggested concentrating on OpenSesame or another single platform (e.g., PsychoPy) to streamline the learning curve.\nThis would allow more in-depth exploration of coding and experimental design.\n\nMore Emphasis on Coding Basics:\n\nIntroducing coding with structured, step-by-step tutorials.\nAllocating dedicated sessions solely for coding practice would enhance proficiency.\n\nImproving Task Clarity with Additional Resources:\n\nVideo Tutorials: Recording sessions or providing video walkthroughs of tasks could help students revisit complex topics.\nSupplementary Reading: Curated lists of online tutorials or articles on experimental design would aid independent study.\n\nIncreasing Emphasis on Experimental Design:\n\nWhile coding is essential, more context around why certain designs are chosen and how they relate to research questions would benefit overall understanding."
+    "text": "Student Suggestions for Course Improvement\nBased on collected feedback, here are suggestions for enhancing the learning experience:\n\nFocusing on a Single Software:\n\nMany students suggested concentrating on OpenSesame or another single platform (e.g., PsychoPy) to streamline the learning curve.\nThis would allow more in-depth exploration of coding and experimental design.\n\nMore Emphasis on Coding Basics:\n\nIntroducing coding with structured, step-by-step tutorials.\nAllocating dedicated sessions solely for coding practice would enhance proficiency.\n\nImproving Task Clarity with Additional Resources:\n\nVideo Tutorials: Recording sessions or providing video walkthroughs of tasks could help students revisit complex topics.\nSupplementary Reading: Curated lists of online tutorials or articles on experimental design would aid independent study.\n\nIncreasing Emphasis on Experimental Design:\n\nWhile coding is essential, more context around why certain designs are chosen and how they relate to research questions would benefit overall understanding.",
+    "crumbs": [
+      "Weekly content",
+      "Reflections and Feedback"
+    ]
   },
   {
     "objectID": "s7.html#reflection-and-plans-for-next-year",
     "href": "s7.html#reflection-and-plans-for-next-year",
     "title": "Reflections and Feedback",
     "section": "Reflection and Plans for Next Year",
-    "text": "Reflection and Plans for Next Year\nIn light of this feedback, the following changes are being considered for course 2025/26:\n\nDedicated Coding Sessions:\n\nAllocating specific days for coding practice will provide more time for skill development.\n\nSoftware Focus:\n\nBased on student preference, OpenSesame might be the primary tool, with reduced emphasis on E-Prime.\n\nEnhanced Task Explanations:\n\nAdding detailed rationales for task design choices to improve understanding of the research context behind each experiment."
+    "text": "Reflection and Plans for Next Year\nIn light of this feedback, the following changes are being considered for course 2025/26:\n\nDedicated Coding Sessions:\n\nAllocating specific days for coding practice will provide more time for skill development.\n\nSoftware Focus:\n\nBased on student preference, OpenSesame might be the primary tool, with reduced emphasis on E-Prime.\n\nEnhanced Task Explanations:\n\nAdding detailed rationales for task design choices to improve understanding of the research context behind each experiment.",
+    "crumbs": [
+      "Weekly content",
+      "Reflections and Feedback"
+    ]
   }
 ]
