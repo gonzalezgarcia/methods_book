@@ -1,0 +1,65 @@
+# Chapter 1: Refresher on experimental design {.unnumbered}
+
+Below, you can find the slides from this session:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTr-IHjTamw8scY-iQPVLLeeAA4HpAbBHzS6o8a4zT44mqs8UBJ7X7hhPM37YjxR7gc-bTsx5H5_M7A/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+## From Research Questions to Data
+
+The essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:
+
+- **Between-participants design**: Each participant experiences only one level of a factor.
+- **Within-participants design**: Participants experience multiple levels of a factor, allowing for within-subject comparisons.
+- **Mixed designs**: Combining elements of both between- and within-participant designs.
+
+There are also techniques like **counterbalancing** to mitigate order effects and ensure reliable, replicable results.
+
+## Tools for Experimental Design
+
+During the programming phase, you'll become familiar with two key software tools:
+
+### E-Prime
+- Widely used at CIMCYC
+- Great for users with little coding experience
+- Only available on Windows (License required; check PRADO)
+
+### OpenSesame
+- Python-based and open source
+- Cross-platform and free
+- Requires basic coding knowledge, but has a large online community
+
+If you need help accessing these tools or have a non-Windows computer, feel free to reach out!
+
+:::{.callout-tip}
+## Relevant readings
+
+For more reading, check out the following resources:
+
+- [Myers, Well, & Lorch (2013). Research Design and Statistical Analysis](https://granatensis.ugr.es/discovery/fulldisplay?docid=alma991014333689904990&context=L&vid=34CBUA_UGR:VU1)
+- [Experimentology](https://experimentology.io/)
+- [Barbosa (2022)](https://jmourabarbosa.github.io/files/Barbosa_2022_BRM.pdf)
+
+:::
+
+:::{.callout-tip collapse="true"}
+## Food for thought
+
+### 1. Understanding Experimental Design
+- What are the key differences between **between-participants** and **within-participants** designs, and in what scenarios would you prefer one over the other?
+- Reflect on the importance of **counterbalancing** in experimental design. How does it help improve the reliability of an experiment?
+
+
+### 2. From Research Questions to Experiment Design
+- How would you approach transforming a cognitive neuroscience research question into a concrete experimental procedure? What are the key stages you must consider?
+- How do **repeated measures** (within-participant designs) affect the interpretation of experimental data compared to between-participant designs?
+
+### 3. Programming and Tools
+- Compare and contrast the strengths and weaknesses of **E-Prime** and **OpenSesame**. How might the choice of tool affect the design and execution of your experiment?
+- In programming an experiment, why is it important to understand both the user interface (e.g., E-Prime’s **E-Studio**) and coding components (e.g., **Inline Scripts**)?
+
+### 4. Ethical Considerations
+- When designing experiments in cognitive neuroscience, what ethical considerations should be taken into account? How can these be incorporated into the design phase?
+
+
+
+:::
+

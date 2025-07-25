@@ -9,7 +9,7 @@ book:
   repo-url: https://github.com/gonzalezgarcia/methods_book
   page-footer: 
     left: |
-      Methods in CogNeuro 25/26
+      Methods in CogNeuro
     right: |
       Built with ♥️ with <a href="https://quarto.org/">Quarto</a>.
   page-navigation: true
@@ -17,9 +17,10 @@ book:
     - part: "Course information"
       chapters:
       - index.qmd
+      - syllabus.qmd
     - part: "Weekly content"
       chapters:
-      - chapter1.qmd
+      - s0.qmd
       - s1.qmd
       - s2.qmd
       - s3.qmd

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sessions 5-6 – Research methods in Cognitive Neuroscience</title>
+<title>Chapter 1: Refresher on experimental design – Research methods in Cognitive Neuroscience</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,8 +30,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./s7.html" rel="next">
-<link href="./s4.html" rel="prev">
+<link href="./s1.html" rel="next">
+<link href="./index.html" rel="prev">
 <link href="./r4epi_favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -116,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html">Weekly content</a></li><li class="breadcrumb-item"><a href="./s5.html">Sessions 5-6</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html">Weekly content</a></li><li class="breadcrumb-item"><a href="./chapter1.html">Chapter 1: Refresher on experimental design</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -172,7 +138,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter1.html" class="sidebar-item-text sidebar-link">
+  <a href="./chapter1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Chapter 1: Refresher on experimental design</span></a>
   </div>
 </li>
@@ -202,7 +168,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./s5.html" class="sidebar-item-text sidebar-link active">
+  <a href="./s5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sessions 5-6</span></a>
   </div>
 </li>
@@ -224,19 +190,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#opensesame-overview" id="toc-opensesame-overview" class="nav-link active" data-scroll-target="#opensesame-overview">OpenSesame Overview</a>
+  <li><a href="#from-research-questions-to-data" id="toc-from-research-questions-to-data" class="nav-link active" data-scroll-target="#from-research-questions-to-data">From Research Questions to Data</a></li>
+  <li><a href="#tools-for-experimental-design" id="toc-tools-for-experimental-design" class="nav-link" data-scroll-target="#tools-for-experimental-design">Tools for Experimental Design</a>
   <ul class="collapse">
-  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
-  </ul></li>
-  <li><a href="#opensesame-structure" id="toc-opensesame-structure" class="nav-link" data-scroll-target="#opensesame-structure">OpenSesame Structure</a></li>
-  <li><a href="#task-examples" id="toc-task-examples" class="nav-link" data-scroll-target="#task-examples">Task Examples</a>
-  <ul class="collapse">
-  <li><a href="#stroop-task-in-opensesame" id="toc-stroop-task-in-opensesame" class="nav-link" data-scroll-target="#stroop-task-in-opensesame">Stroop Task in OpenSesame</a></li>
-  <li><a href="#lexical-decision-task-in-opensesame" id="toc-lexical-decision-task-in-opensesame" class="nav-link" data-scroll-target="#lexical-decision-task-in-opensesame">Lexical Decision Task in OpenSesame</a></li>
-  </ul></li>
-  <li><a href="#conditionals-in-python" id="toc-conditionals-in-python" class="nav-link" data-scroll-target="#conditionals-in-python">Conditionals in Python</a>
-  <ul class="collapse">
-  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure">Structure</a></li>
+  <li><a href="#e-prime" id="toc-e-prime" class="nav-link" data-scroll-target="#e-prime">E-Prime</a></li>
+  <li><a href="#opensesame" id="toc-opensesame" class="nav-link" data-scroll-target="#opensesame">OpenSesame</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -244,9 +202,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html">Weekly content</a></li><li class="breadcrumb-item"><a href="./s5.html">Sessions 5-6</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html">Weekly content</a></li><li class="breadcrumb-item"><a href="./chapter1.html">Chapter 1: Refresher on experimental design</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Sessions 5-6</h1>
+<h1 class="title">Chapter 1: Refresher on experimental design</h1>
 </div>
 
 
@@ -263,87 +221,58 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>In this session, we will explore <strong>OpenSesame</strong> as an alternative to E-Prime, covering the structure of OpenSesame, a comparison between both tools, and how to create tasks like the Stroop and lexical decision tasks.</p>
-<section id="opensesame-overview" class="level2">
-<h2 class="anchored" data-anchor-id="opensesame-overview">OpenSesame Overview</h2>
-<section id="key-features" class="level3">
-<h3 class="anchored" data-anchor-id="key-features">Key Features</h3>
+<p>Below, you can find the slides from this session:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTr-IHjTamw8scY-iQPVLLeeAA4HpAbBHzS6o8a4zT44mqs8UBJ7X7hhPM37YjxR7gc-bTsx5H5_M7A/pubembed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+<section id="from-research-questions-to-data" class="level2">
+<h2 class="anchored" data-anchor-id="from-research-questions-to-data">From Research Questions to Data</h2>
+<p>The essence of cognitive neuroscience experiments is to examine relationships between manipulations (independent variables) and their effects on measurable outcomes (dependent variables). Remember there are various experimental designs, such as:</p>
 <ul>
-<li><strong>OpenSesame</strong> is an open-source, Python-based tool for designing experiments.</li>
-<li>It is free, cross-platform, and has a large online community.</li>
-<li><strong>E-Prime</strong>, in contrast, is a paid software that works only on Windows but has more support at CIMCYC.</li>
+<li><strong>Between-participants design</strong>: Each participant experiences only one level of a factor.</li>
+<li><strong>Within-participants design</strong>: Participants experience multiple levels of a factor, allowing for within-subject comparisons.</li>
+<li><strong>Mixed designs</strong>: Combining elements of both between- and within-participant designs.</li>
 </ul>
-<hr>
+<p>There are also techniques like <strong>counterbalancing</strong> to mitigate order effects and ensure reliable, replicable results.</p>
 </section>
-</section>
-<section id="opensesame-structure" class="level2">
-<h2 class="anchored" data-anchor-id="opensesame-structure">OpenSesame Structure</h2>
-<p>While OpenSesame is different from E-Prime, there are some parallels in structure:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong>OpenSesame</strong></th>
-<th><strong>E-Prime</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>list</strong></td>
-<td>loop</td>
-</tr>
-<tr class="even">
-<td><strong>procedure</strong></td>
-<td>sequence</td>
-</tr>
-<tr class="odd">
-<td><strong>slide</strong></td>
-<td>sketchpad</td>
-</tr>
-</tbody>
-</table>
-<p>Some other elements are more specific to OpenSesame, such as the <strong>logger</strong> and <strong>keyboard_response</strong>.</p>
-<hr>
-</section>
-<section id="task-examples" class="level2">
-<h2 class="anchored" data-anchor-id="task-examples">Task Examples</h2>
-<section id="stroop-task-in-opensesame" class="level3">
-<h3 class="anchored" data-anchor-id="stroop-task-in-opensesame">Stroop Task in OpenSesame</h3>
-<p><strong>Objective</strong>: Name the color of the ink, not the word.</p>
+<section id="tools-for-experimental-design" class="level2">
+<h2 class="anchored" data-anchor-id="tools-for-experimental-design">Tools for Experimental Design</h2>
+<p>During the programming phase, you’ll become familiar with two key software tools:</p>
+<section id="e-prime" class="level3">
+<h3 class="anchored" data-anchor-id="e-prime">E-Prime</h3>
 <ul>
-<li><strong>Congruent Example</strong>: <span style="color:green"><strong>green</strong></span>.</li>
-<li><strong>Incongruent Example</strong>:<span style="color:red"><strong>green</strong></span>.</li>
-<li><strong>Timing</strong>:
-<ul>
-<li>Fixation: 1000 ms</li>
-<li>Stimulus: 2000 ms (or until response)</li>
-</ul></li>
+<li>Widely used at CIMCYC</li>
+<li>Great for users with little coding experience</li>
+<li>Only available on Windows (License required; check PRADO)</li>
 </ul>
 </section>
-<section id="lexical-decision-task-in-opensesame" class="level3">
-<h3 class="anchored" data-anchor-id="lexical-decision-task-in-opensesame">Lexical Decision Task in OpenSesame</h3>
-<p>In this task, participants must decide whether a displayed string is a real word or a non-word.</p>
-<p><strong>Trial Structure</strong>: - <strong>Fixation</strong>: 1000 ms - <strong>Probe</strong>: 2000 ms</p>
-<p>You will define which elements are fixed (e.g., fixation cross) and which vary (e.g., words).</p>
-<p><strong>Fixed Properties</strong>: - Text always “+” - Foreground and background color</p>
-<p><strong>Varying Properties</strong>: - Word: real or non-word - Response keys</p>
-<hr>
-</section>
-</section>
-<section id="conditionals-in-python" class="level2">
-<h2 class="anchored" data-anchor-id="conditionals-in-python">Conditionals in Python</h2>
-<section id="structure" class="level3">
-<h3 class="anchored">Structure</h3>
-<p>Conditionals allow specific actions depending on whether certain conditions are met.</p>
-<p><strong>Basic Example</strong>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> [correct] <span class="op">==</span> <span class="dv">1</span>:</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">'well done'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> [correct] <span class="op">==</span> <span class="dv">1</span> <span class="kw">and</span> [response_time] <span class="op">&lt;</span> <span class="dv">1000</span>:</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">'well done'</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> [correct] <span class="op">==</span> <span class="dv">0</span>:</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">'try again'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<hr>
+<section id="opensesame" class="level3">
+<h3 class="anchored" data-anchor-id="opensesame">OpenSesame</h3>
+<ul>
+<li>Python-based and open source</li>
+<li>Cross-platform and free</li>
+<li>Requires basic coding knowledge, but has a large online community</li>
+</ul>
+<p>If you need help accessing these tools or have a non-Windows computer, feel free to reach out!</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Relevant readings
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For more reading, check out the following resources:</p>
+<ul>
+<li><a href="https://granatensis.ugr.es/discovery/fulldisplay?docid=alma991014333689904990&amp;context=L&amp;vid=34CBUA_UGR:VU1">Myers, Well, &amp; Lorch (2013). Research Design and Statistical Analysis</a></li>
+<li><a href="https://experimentology.io/">Experimentology</a></li>
+<li><a href="https://jmourabarbosa.github.io/files/Barbosa_2022_BRM.pdf">Barbosa (2022)</a></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -352,43 +281,38 @@ Food for thought
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="comparing-e-prime-and-opensesame" class="level2">
-<h2 class="anchored" data-anchor-id="comparing-e-prime-and-opensesame">Comparing E-Prime and OpenSesame</h2>
+<section id="understanding-experimental-design" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-experimental-design">1. Understanding Experimental Design</h3>
 <ul>
-<li>In what scenarios would you choose <strong>OpenSesame</strong> over <strong>E-Prime</strong> for designing an experiment? How does the <strong>open-source</strong> nature of OpenSesame influence its usability and flexibility compared to E-Prime?</li>
-<li>What are the main trade-offs between the two tools (e.g., coding flexibility in OpenSesame vs.&nbsp;graphical interface in E-Prime)? Reflect on how these might affect your experimental workflow.</li>
+<li>What are the key differences between <strong>between-participants</strong> and <strong>within-participants</strong> designs, and in what scenarios would you prefer one over the other?</li>
+<li>Reflect on the importance of <strong>counterbalancing</strong> in experimental design. How does it help improve the reliability of an experiment?</li>
 </ul>
 </section>
-<section id="opensesame-task-design" class="level2">
-<h2 class="anchored" data-anchor-id="opensesame-task-design">OpenSesame Task Design</h2>
+<section id="from-research-questions-to-experiment-design" class="level3">
+<h3 class="anchored" data-anchor-id="from-research-questions-to-experiment-design">2. From Research Questions to Experiment Design</h3>
 <ul>
-<li>When designing the <strong>Stroop task</strong> in OpenSesame, how do congruent and incongruent trials affect participant reaction times? What cognitive processes are being measured, and how can the experiment be adjusted to explore these further?</li>
-<li>In the <strong>lexical decision task</strong> (or any other experiment), what considerations should be made regarding the fixed and variable properties? How do these properties affect the accuracy and reaction times in the experiment?</li>
+<li>How would you approach transforming a cognitive neuroscience research question into a concrete experimental procedure? What are the key stages you must consider?</li>
+<li>How do <strong>repeated measures</strong> (within-participant designs) affect the interpretation of experimental data compared to between-participant designs?</li>
 </ul>
 </section>
-<section id="conditionals-in-python-1" class="level2">
-<h2 class="anchored" data-anchor-id="conditionals-in-python-1">Conditionals in Python</h2>
+<section id="programming-and-tools" class="level3">
+<h3 class="anchored" data-anchor-id="programming-and-tools">3. Programming and Tools</h3>
 <ul>
-<li>How does using <strong>conditionals</strong> in Python allow for more flexibility in your experiment? Reflect on a scenario where you could use complex conditionals to provide feedback based on multiple conditions (e.g., accuracy and response time).</li>
-<li>Compare the use of <strong>conditionals</strong> in OpenSesame with those in E-Basic. What are the key differences in syntax and application, and how might they affect your approach to designing an experiment?</li>
+<li>Compare and contrast the strengths and weaknesses of <strong>E-Prime</strong> and <strong>OpenSesame</strong>. How might the choice of tool affect the design and execution of your experiment?</li>
+<li>In programming an experiment, why is it important to understand both the user interface (e.g., E-Prime’s <strong>E-Studio</strong>) and coding components (e.g., <strong>Inline Scripts</strong>)?</li>
 </ul>
 </section>
-<section id="debugging-and-error-handling-in-opensesame" class="level2">
-<h2 class="anchored" data-anchor-id="debugging-and-error-handling-in-opensesame">Debugging and Error Handling in OpenSesame</h2>
+<section id="ethical-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="ethical-considerations">4. Ethical Considerations</h3>
 <ul>
-<li>Why is the <strong>debug console</strong> in OpenSesame an important tool when developing an experiment? How can you use it to monitor variables like <strong>subject_parity</strong> and ensure your conditionals are working as expected?</li>
-<li>What challenges could arise when setting up counterbalancing or feedback mechanisms in OpenSesame, and how would you address these issues through debugging?</li>
+<li>When designing experiments in cognitive neuroscience, what ethical considerations should be taken into account? How can these be incorporated into the design phase?</li>
 </ul>
 </section>
 </div>
 </div>
 </div>
-<hr>
-<p>Below, you can find the slides from this session:</p>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTc-OIb7WXraot70eMFfA_Kfu-hl85Je6zaokw3LGNCKf6nGZMn7nlPNgbqzRsqBwzBvf0INJZ6pUFf/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-</iframe>
 
 
 </section>
@@ -814,13 +738,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./s4.html" class="pagination-link" aria-label="Session 4">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 4</span>
+      <a href="./index.html" class="pagination-link" aria-label="Welcome">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./s7.html" class="pagination-link" aria-label="Reflections and Feedback">
-        <span class="nav-page-text">Reflections and Feedback</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./s1.html" class="pagination-link" aria-label="Session 1">
+        <span class="nav-page-text">Session 1</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

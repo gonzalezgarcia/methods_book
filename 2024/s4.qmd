@@ -1,0 +1,99 @@
+# Session 4 {.unnumbered}
+
+In this session, we will focus on the full experiment lifecycle in E-Prime, from creation to data analysis. Additionally, we will explore the effect of word valence on stimulus discrimination and dive deeper into conditionals in E-Basic.
+
+## Experiment Lifecycle in E-Prime
+
+### Steps Involved
+1. **Create the Experiment**  
+   Use E-Studio to design the experiment interface and logic.
+   
+2. **Run the Experiment**  
+   Execute the experiment through E-Run and ensure everything works as planned.
+   
+3. **Change File Format**  
+   Utilize E-DataAid to convert the output into a readable format for analysis.
+   
+4. **Merge Files**  
+   Use E-Merge to combine the data from different participants.
+   
+5. **Analyze and Export Data**  
+   Finally, run the analysis and export the data for further use.
+
+### Key Tools
+- **E-Studio**: Graphical interface to design experiments.
+- **E-Run**: Runs experiments.
+- **E-Recovery**: Recovers partial data if the experiment crashes.
+- **E-Merge**: Merges data from multiple participants.
+- **E-DataAid**: Analyzes and exports experiment data.
+
+---
+
+## Example: Word Valence and Stimulus Discrimination
+
+In the experiment, participants must quickly determine the shape displayed after a word. The structure of each trial is as follows:
+
+- **Fixation** (1000 ms)
+- **Word** (500 ms)
+- **Shape Display** (100 ms)
+- **Response Window** (up to 2000 ms)
+
+---
+
+## Conditionals in E-Basic
+
+### Basic Structure
+Conditionals are logic statements that allow specific actions if certain conditions are met.
+
+**Example**:
+```python
+If target.RT > 1000 Then
+  Feedback.Text = "too slow!"
+End If
+```
+Conditionals can be used to tailor the feedback or response during the experiment based on participant performance.
+
+## PreRelease
+
+PreRelease allows the current stimulus to release execution time to the next stimulus.
+By setting PreRelease to 0, you ensure that the previous object finishes its execution before the next one begins.
+
+## Exercise: Create a Conditional with Feedback
+
+Try creating an InLine object that:
+
+- Displays "you’re doing great" if the reaction time is less than 1000 ms.
+- Displays "please, try to answer faster" if the reaction time is more than 1000 ms.
+
+Example: 
+```python
+If target.RT < 1000 Then
+  Feedback.Text = "great!"
+Else
+  Feedback.Text = "faster"
+End If
+```
+---
+
+:::{.callout-tip collapse="true"}
+## Food for thought
+
+## Experiment Lifecycle in E-Prime
+- How does understanding the workflow in E-Prime, from **E-Studio** to **E-Run** and **E-DataAid**, help in managing the overall experiment? What challenges could arise during these transitions?
+- Why is it important to use **E-Recovery** and **E-Merge** tools during an experiment, and how do they contribute to data integrity?
+
+## Conditionals in E-Basic
+- How can **conditionals** in E-Basic be used to adapt the experiment based on participant responses? Provide an example of how conditionals might be useful in real-time feedback.
+- Why is it important to set the **PreRelease** property to 0 when using **InLine** objects after an event? What might happen if this is not done correctly?
+
+## 4. Debugging and Testing
+- What strategies would you use to ensure that conditionals and trial logic are functioning as expected during an experiment? How does **debugging** assist in catching issues early on?
+
+
+:::
+
+---
+
+Below, you can find the slides from this session:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT5vXhWJAoXJSJcSH0gohBGUj0KeOvcMmeCencUrstKelhPGq89BQ9XWq61nWCVURR_oPRgIsMQV-vo/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

@@ -2,20 +2,123 @@
 
 # Welcome {.unnumbered}
 
-![AI algorithm hallucinates what this course is about](/chatgpt.png){width=500}
+<!-- ![AI algorithm hallucinates what this course is about](/chatgpt.png){width=500} -->
 
-This text is aimed to serve as your guide for the first half of the course "Methodology in Cognitive Neuroscience: Basic and Applied Research" in the Master's Program in Cognitive and Behavioral Neuroscience at the University of Granada.
+This text is aimed to serve as your guide for the first half of the 2025/26 course **Methodology in Cognitive Neuroscience: Basic and Applied Research** in the Master's Program in Cognitive and Behavioral Neuroscience at the University of Granada.
 
-In this section, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We'll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we'll dive into hands-on training using [**E-Prime**](https://pstnet.com/products/e-prime/) and [**OpenSesame**](https://osdoc.cogsci.nl/), two powerful pieces of software for creating psychology experiments.
+In this part of the course, we will explore the foundations of experimental research in cognitive neuroscience and develop practical skills in experiment programming. We'll begin by introducing key concepts in research methods and experimental thinking, providing you with a solid theoretical foundation. Then, we'll dive into hands-on training using [**OpenSesame**](https://osdoc.cogsci.nl/), a Python-based software for creating psychology experiments.
 
-By the end of this module, you will be able to:
+By the end of these weeks of class, you will be able to:
 
 - Understand and apply principles of experimental design in cognitive neuroscience
 - Think critically about research methodology and experimental control
-- Design and program your own experiments using E-Prime and OpenSesame
-- Troubleshoot common issues in experiment programming
+- Understand and write basic Python code
+- Design and program your own experiments using OpenSesame
 
 This guide is designed to be both theoretical and practical. Most of the chapters include conceptual discussions followed by hands-on exercises to help you apply what you've learned. Remember, mastering these skills requires practice, creativity, and persistence!
+
+## Course Organization
+
+### Schedule and syllabus
+
+Classes will take place on Tuesdays and Wednesdays, from 09:00 to 10:30 and from 15:00 to 16:30, respectively. All classes will be held in Seminario 3 of the CIMCYC.
+
+This part of the course will run from October 7 to October 29, 2025, and we will have an exam on October 31, 2025.
+
+![](schedule.png){width=800}
+
+
+
+| Session | Day         | Hour         | Topic                                                   | Materials                               |
+|---------|-------------|--------------|----------------------------------------------------------|------------------------------------------|
+| 1       | Tue Oct 7   | 09:00  | Introduction: Refresher on experimental design          | [Chapter 1](chapter1.qmd) ([slides](https://docs.google.com/presentation/d/e/2PACX-1vTr-IHjTamw8scY-iQPVLLeeAA4HpAbBHzS6o8a4zT44mqs8UBJ7X7hhPM37YjxR7gc-bTsx5H5_M7A/pub?start=false&loop=false&delayms=60000))                 |
+| 2       | Wed Oct 8   | 15:00  | Introduction to Python                                  | Chapter 2 (slides) + [Google Colab notebook](https://colab.research.google.com/drive/1TR5F9YOSmSzXbke2ONfKggXw9VQt8T8L?pli=1&usp=drive_fs)                  |
+| 3       | Tue Oct 14  | 09:00  | Introduction to OpenSesame                              | OpenSesame basic demo files              |
+| 4       | Wed Oct 15  | 15:00  | Trial sequences and loops                               | Stimulus table examples                  |
+| 5       | Tue Oct 21  | 09:00  | Blocks and feedback                                     | OpenSesame: practice tasks               |
+| 6       | Wed Oct 22  | 15:00  | Conditionals and inline scripts. Counterbalance.        | Sample inline scripts + condition tables |
+| 7       | Tue Oct 28  | 09:00  | Advanced options                                        | OpenSesame advanced templates            |
+| 8       | Wed Oct 29  | 15:00  | Q&A and course feedback                                 | Survey form + recap slides               |
+| –       | Fri Oct 31  | 15:00  | **Exam**                                                | Exam info               |
+
+
+### Required Software
+
+<mark>**OpenSesame**</mark> (download latest version from [here](https://osdoc.cogsci.nl/4.0/download/)).
+
+It should run in any more or less recent computer. If you have any issue installing it, please let me know as soon as possible!
+
+### Resources and recommended readings
+
+:::{.callout-note}
+Note: these are just extra readings in case you want to learn more. They are encouraged but not required to follow or pass the course.
+:::
+
+- Barbosa, J., Stein, H., Zorowitz, S., Niv, Y., Summerfield, C., Soto-Faraco, S., & Hyafil, A. (2023). A practical guide for studying human behavior in the lab. Behavior Research Methods, 55(1), 58-76.
+- Frank, M. C., Braginsky, M., Cachia, J., Coles, N.A., Hardwicke, T.E., Hawkins, R.E., Mathur, M.B., and Williams, R. 2024. Experimentology: An Open Science Approach to Experimental Psychology Methods. MIT Press. https://doi.org/10.7551/mitpress/14810.001.0001. 
+- Mathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source, graphical experiment builder for the social sciences. Behavior Research Methods, 44, 314-324.
+- Myers, J. L., Well, A. D., & Lorch Jr, R. F. (2013). Research design and statistical analysis. Routledge.
+
+
+### Evaluation
+
+This course is divided in two parts:
+
+1) Programming of experiments (50% of the final grade)
+
+2) Statistical analyses (50% of the final grade)
+
+::: {.callout-warning }
+
+## Important!
+
+A minimum of 25% in each phase is required to pass the course.
+:::
+
+In my part of the course (_Part 1_), your final grade will depend on:
+
+| Activity | Contribution to final grade |
+|------|:-------:|
+| Participation and in-class assignments | 30% |
+| Individual programming assignments | 30% |
+| Final project | 40% |
+
+
+## Course Policies
+
+### Attendance and Participation
+
+Attendance is strongly encouraged for this course due to its eminently practical nature. Please note:
+
+- Many in-class activities and hands-on exercises might not be easily replicated outside of class.
+- Regular attendance will significantly enhance your learning experience and ability to complete assignments successfully.
+- If you must miss a class, it is your responsibility to catch up on missed material and assignments.
+- Consistent participation in class discussions and activities will positively impact your learning and final grade.
+
+### Late Work and Extensions
+
+- Assignments are due on the dates specified in the course schedule.
+- Late submissions will incur a 20% penalty
+- If you anticipate difficulty meeting a deadline, please contact me as soon as possible to discuss potential extensions.
+- Extensions may be granted for documented emergencies or extenuating circumstances at the instructor's discretion.
+
+### Academic Integrity
+
+- All work submitted must be your own.
+- When using external sources (including generative AI tools), proper citation is required.
+- Collaboration on assignments is encouraged, but each student must submit their own original work.
+
+## Communication
+
+- Email ([cgonzalez@ugr.es](mailto:cgonzalez@ugr.es)) is the primary mode of communication outside of class.
+- You can also use PRADO if you prefer.
+
+
+###  Office Hours
+
+Mondays from 8:30 to 11, but feel free to send me an email anytime or just ask me after class.
+
+
 
 
 :::{.callout-tip}
@@ -29,7 +132,7 @@ This guide is designed to be both theoretical and practical. Most of the chapter
 
 ## Disclaimer
 
-This material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-25.
+This material has been elaborated for the use of the Cognitive Neuroscience master students of the Universidad de Granada, years 2023-26.
 
 The resources listed here are Open Educational Resources (OER) that are free to use, share, copy, and edit, with attribution, following the terms of the specified license.
 
