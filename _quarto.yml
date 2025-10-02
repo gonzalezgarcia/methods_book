@@ -12,20 +12,21 @@ book:
       Methods in CogNeuro 25/26
     right: |
       Built with ♥️ with <a href="https://quarto.org/">Quarto</a>.
-  page-navigation: true
+  page-navigation: false
   chapters:
-    - part: "Course information"
-      chapters:
-      - index.qmd
-    - part: "Weekly content"
-      chapters:
-      - chapter1.qmd
-      - s1.qmd
-      - s2.qmd
-      - s3.qmd
-      - s4.qmd
-      - s5.qmd
-      - s7.qmd
+  - index.qmd
+    # - part: "Course information"
+    #   chapters:
+    #   - index.qmd
+    # - part: "Weekly content"
+    #   chapters:
+    #   - chapter1.qmd
+    #   - s1.qmd
+    #   - s2.qmd
+    #   - s3.qmd
+    #   - s4.qmd
+    #   - s5.qmd
+    #   - s7.qmd
       
   sidebar:
     title: "Methods in CogNeuro"

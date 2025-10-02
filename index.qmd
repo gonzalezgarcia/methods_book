@@ -29,17 +29,15 @@ This part of the course will run from October 7 to October 29, 2025, and we will
 
 
 
-| Session | Day         | Hour         | Topic                                                   | Materials                               |
-|---------|-------------|--------------|----------------------------------------------------------|------------------------------------------|
-| 1       | Tue Oct 7   | 09:00  | Introduction: Refresher on experimental design          | [Chapter 1](chapter1.qmd) ([slides](https://docs.google.com/presentation/d/e/2PACX-1vTr-IHjTamw8scY-iQPVLLeeAA4HpAbBHzS6o8a4zT44mqs8UBJ7X7hhPM37YjxR7gc-bTsx5H5_M7A/pub?start=false&loop=false&delayms=60000))                 |
-| 2       | Wed Oct 8   | 15:00  | Introduction to Python                                  | Chapter 2 (slides) + [Google Colab notebook](https://colab.research.google.com/drive/1TR5F9YOSmSzXbke2ONfKggXw9VQt8T8L?pli=1&usp=drive_fs)                  |
-| 3       | Tue Oct 14  | 09:00  | Introduction to OpenSesame                              | OpenSesame basic demo files              |
-| 4       | Wed Oct 15  | 15:00  | Trial sequences and loops                               | Stimulus table examples                  |
-| 5       | Tue Oct 21  | 09:00  | Blocks and feedback                                     | OpenSesame: practice tasks               |
-| 6       | Wed Oct 22  | 15:00  | Conditionals and inline scripts. Counterbalance.        | Sample inline scripts + condition tables |
-| 7       | Tue Oct 28  | 09:00  | Advanced options                                        | OpenSesame advanced templates            |
-| 8       | Wed Oct 29  | 15:00  | Q&A and course feedback                                 | Survey form + recap slides               |
-| –       | Fri Oct 31  | 15:00  | **Exam**                                                | Exam info               |
+
+
+| Week | Days         |  Topic                                                   | Materials  |
+|---------|-------------|----------------------------------|------------------------------------------|
+| 1       | Oct 7 & 8   | Refresher on experimental design and introduction to OpenSesame         | [slides](https://docs.google.com/presentation/d/e/2PACX-1vTr-IHjTamw8scY-iQPVLLeeAA4HpAbBHzS6o8a4zT44mqs8UBJ7X7hhPM37YjxR7gc-bTsx5H5_M7A/pub?start=false&loop=false&delayms=60000)             |
+| 2       | Oct 14 & 15 | OpenSesame: main funtionalities                                         | [slides](https://docs.google.com/presentation/d/e/2PACX-1vQWDO5sy5oNfdB4EqlvxdGbKFpyk6mPZHHFgv274rLqjvuetBYvylUs-InkVXAVbU31KmnVACCiQXhM/pub?start=false&loop=false&delayms=60000)             |
+| 3       | Oct 21 & 22  | Introduction to Python. Coding features in OpenSesame                           | [slides](https://docs.google.com/presentation/d/e/2PACX-1vQOUoW9kazIROsvZmY6cdVseozsn4Bsz4HVMoYDAHUztw6wsrR5MlrVOlXljBROn5MtSGKlHxfx98R3/pub?start=false&loop=false&delayms=60000)              |
+| 5       | Oct 28 & 29  | Advanced options and course feedback                                         | slides               |
+| –       | Oct 31  |  **Exam**                                                |                |
 
 
 ### Required Software
